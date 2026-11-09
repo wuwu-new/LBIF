@@ -35,7 +35,7 @@ LBIF 为已经训练好的增强语义检测器增加一条可独立训练的局
 </p>
 
 $$
-b(x)=S(x)/2, \qquad z(x)=\operatorname{sg}(b(x))+\delta(x), \qquad
+b(x)=S(x)/2, \qquad z(x)=\mathrm{sg}(b(x))+\delta(x), \qquad
 \delta(x)=0.5\tanh(w^\top q).
 $$
 
