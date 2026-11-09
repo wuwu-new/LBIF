@@ -1,0 +1,31 @@
+{
+  "source_file": "三张插图_v8_终版排版.pdf",
+  "source_sha256": "59d9fd2514e2d8f7fe99ab336d3ac9300290fd6e90f4d2818d76760b81b7972d",
+  "render_dpi": 288,
+  "figures": [
+    {
+      "file": "lbif_overview.png",
+      "source_page": 1,
+      "caption": "LBIF 总体框架",
+      "width": 2132,
+      "height": 1443,
+      "sha256": "935c38233eadfbaeef1d8f034937d962c0e0672d56cc96b107ec36429b7b3a28"
+    },
+    {
+      "file": "boundary_readout.png",
+      "source_page": 2,
+      "caption": "边界加权的局部对比读出",
+      "width": 2132,
+      "height": 1367,
+      "sha256": "d0eaac4661572e00135171566cb9eac6b06eb43f93b116ef1110dd9559a60b3d"
+    },
+    {
+      "file": "mask_guided_learning.png",
+      "source_page": 3,
+      "caption": "掩膜引导的块级学习",
+      "width": 2132,
+      "height": 1248,
+      "sha256": "bef7a3a4ead2a60614404df70f0ebba765a019a1be2a747e5a1be030a6b45997"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "source_file": "论文_合并稿_附录精简版.pdf",
+  "source_sha256": "d19ffba605458a243cda08610d4b58b86df3babe895e08b531cc7f43e32d7050",
+  "source_table": "Table 1 (PDF page 7); Table 4 (page 9); Appendix A1 (page 13)",
+  "auc_unit": "percent",
+  "delta_unit": "percentage points",
+  "uncertainty": "sample standard deviation across training seeds",
+  "seeds": [
+    2027,
+    3407,
+    4099
+  ],
+  "macro": "unweighted average across CDF1, CDF2, DFD, DFDC, DFDCP, Wild",
+  "frames_per_video": 32,
+  "target_videos_or_sequences": 6884,
+  "target_frames": 220288,
+  "new_local_trainable_parameters": 118722,
+  "local_inference_parameters": 118657,
+  "paired_results": [
+    {
+      "domain": "CDF1",
+      "semantic_video_auc": "85.98 ± 1.94",
+      "lbif_video_auc": "86.66 ± 1.98",
+      "video_delta_pp": "+0.676",
+      "semantic_frame_auc": "79.56 ± 1.32",
+      "lbif_frame_auc": "79.90 ± 1.10",
+      "frame_delta_pp": "+0.341"
+    },
+    {
+      "domain": "CDF2",
+      "semantic_video_auc": "89.36 ± 0.13",
+      "lbif_video_auc": "89.51 ± 0.08",
+      "video_delta_pp": "+0.155",
+      "semantic_frame_auc": "82.76 ± 0.33",
+      "lbif_frame_auc": "82.91 ± 0.39",
+      "frame_delta_pp": "+0.145"
+    },
+    {
+      "domain": "DFD",
+      "semantic_video_auc": "97.78 ± 0.29",
+      "lbif_video_auc": "97.91 ± 0.24",
+      "video_delta_pp": "+0.132",
+      "semantic_frame_auc": "92.92 ± 0.84",
+      "lbif_frame_auc": "93.47 ± 0.63",
+      "frame_delta_pp": "+0.556"
+    },
+    {
+      "domain": "DFDC",
+      "semantic_video_auc": "84.46 ± 0.40",
+      "lbif_video_auc": "84.51 ± 0.37",
+      "video_delta_pp": "+0.059",
+      "semantic_frame_auc": "79.59 ± 0.46",
+      "lbif_frame_auc": "79.79 ± 0.42",
+      "frame_delta_pp": "+0.199"
+    },
+    {
+      "domain": "DFDCP",
+      "semantic_video_auc": "87.68 ± 0.35",
+      "lbif_video_auc": "87.85 ± 0.31",
+      "video_delta_pp": "+0.172",
+      "semantic_frame_auc": "83.52 ± 0.59",
+      "lbif_frame_auc": "83.79 ± 0.50",
+      "frame_delta_pp": "+0.274"
+    },
+    {
+      "domain": "Wild",
+      "semantic_video_auc": "87.97 ± 0.65",
+      "lbif_video_auc": "88.21 ± 0.56",
+      "video_delta_pp": "+0.240",
+      "semantic_frame_auc": "84.18 ± 0.72",
+      "lbif_frame_auc": "84.66 ± 0.59",
+      "frame_delta_pp": "+0.481"
+    },
+    {
+      "domain": "Macro",
+      "semantic_video_auc": "88.870 ± 0.411",
+      "lbif_video_auc": "89.109 ± 0.375",
+      "video_delta_pp": "+0.239",
+      "semantic_frame_auc": "83.756 ± 0.201",
+      "lbif_frame_auc": "84.089 ± 0.130",
+      "frame_delta_pp": "+0.333"
+    }
+  ],
+  "ablation_results": [
+    {
+      "configuration": "增强语义基线",
+      "video_auc": "88.870 ± 0.411",
+      "delta_from_lbif_pp": "-0.239"
+    },
+    {
+      "configuration": "RGB 输入",
+      "video_auc": "88.854 ± 0.429",
+      "delta_from_lbif_pp": "-0.255"
+    },
+    {
+      "configuration": "无块级分类",
+      "video_auc": "88.936 ± 0.545",
+      "delta_from_lbif_pp": "-0.173"
+    },
+    {
+      "configuration": "无区域对比",
+      "video_auc": "89.110 ± 0.428",
+      "delta_from_lbif_pp": "+0.002"
+    },
+    {
+      "configuration": "无联合块级目标",
+      "video_auc": "88.937 ± 0.496",
+      "delta_from_lbif_pp": "-0.172"
+    },
+    {
+      "configuration": "均匀池化",
+      "video_auc": "89.212 ± 0.366",
+      "delta_from_lbif_pp": "+0.103"
+    },
+    {
+      "configuration": "LBIF",
+      "video_auc": "89.109 ± 0.375",
+      "delta_from_lbif_pp": "0.000"
+    }
+  ],
+  "scope_note": "Paper-reported six-domain scope; archived UADFV configurations are not included in this macro."
+}
