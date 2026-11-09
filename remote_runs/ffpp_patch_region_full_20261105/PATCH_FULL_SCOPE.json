@@ -1,0 +1,14 @@
+{
+  "only_new_arm": [
+    "PatchClassificationContrast"
+  ],
+  "seeds": [
+    2027,
+    3407,
+    4099
+  ],
+  "old_E_reused_not_renamed": true,
+  "classification_only_deferred": true,
+  "no_semantic_model_change": true,
+  "implementation_registration_sha256": "463954fa31eefa3b7f909a0b467254a357da3b875a579bd12788a7588356f9f3"
+}

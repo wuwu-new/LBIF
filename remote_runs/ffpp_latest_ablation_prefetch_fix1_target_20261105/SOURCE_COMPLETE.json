@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "new_retained_updates": 35950,
+  "disposable_optimizer_updates": 0,
+  "new_semantic_execution": false,
+  "selection_lock_sha256": "3bc8152210d5e205b3e0b9b0b55657821aff3d0230f4893fde95edf5ed2dde2a",
+  "target_results_for_selection": false,
+  "time": "2026-11-05T08:01:08.025607+00:00",
+  "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+  "seconds": 8870.612034078687,
+  "network_frame_forwards": {
+    "retained_training": 575200,
+    "full_source_VAL": 1104000,
+    "selected_reload": 320,
+    "selected_localization": 110400
+  },
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 11081478144,
+    "disk_free": 16294170624
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-05T02:24:00.874863+00:00",
+  "pid": 532485,
+  "registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "-u",
+    "-B",
+    "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/implementation/run_cuda.py",
+    "--run",
+    "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105",
+    "--stage",
+    "source"
+  ]
+}

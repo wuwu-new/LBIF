@@ -1,0 +1,65 @@
+{
+  "cdf1": {
+    "manifest": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/manifests/cdf1.json",
+    "manifest_sha256": "995ac69052e055680fab0f141dcf8e0f4f37982c8d0a2ff92fbb8bd73a2406d7",
+    "frames": 2848,
+    "real_videos": 32,
+    "fake_videos": 57,
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/cdf1_FRAMES.jsonl",
+    "baseline_videos": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/cdf1_VIDEOS.json"
+  },
+  "cdf2": {
+    "manifest": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/manifests/cdf2.json",
+    "manifest_sha256": "4bf23d99f8a6aeb53f45b22050f68fb527a2cbc9fd71cbc449fa8b7abc86b8d9",
+    "frames": 15424,
+    "real_videos": 156,
+    "fake_videos": 326,
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/cdf2_FRAMES.jsonl",
+    "baseline_videos": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/cdf2_VIDEOS.json"
+  },
+  "dfd": {
+    "manifest": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/manifests/dfd.json",
+    "manifest_sha256": "5a519a15a96089cb485dc08bcfe5b04a625c8e7d925618d96b5e51722889667c",
+    "frames": 58560,
+    "real_videos": 138,
+    "fake_videos": 1692,
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfd_FRAMES.jsonl",
+    "baseline_videos": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfd_VIDEOS.json"
+  },
+  "dfdc": {
+    "manifest": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/manifests/dfdc.json",
+    "manifest_sha256": "deb37a95ffc6b5e50958e27cb0e727a25640a01c8ddcd60fd7c1901663dc69b7",
+    "frames": 106816,
+    "real_videos": 1538,
+    "fake_videos": 1800,
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfdc_FRAMES.jsonl",
+    "baseline_videos": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfdc_VIDEOS.json"
+  },
+  "dfdcp": {
+    "manifest": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/manifests/dfdcp.json",
+    "manifest_sha256": "a9cb9f82e6188bcb4c4c8ab544b27f165e91046d48e0d1af87cbbe34005bc026",
+    "frames": 10848,
+    "real_videos": 107,
+    "fake_videos": 232,
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfdcp_FRAMES.jsonl",
+    "baseline_videos": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfdcp_VIDEOS.json"
+  },
+  "wild": {
+    "manifest": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/manifests/wild.json",
+    "manifest_sha256": "c49c7a027eef08696cf0da14ed0b722bc66994b58b71912e655cbe89ead5ad1d",
+    "frames": 25792,
+    "real_videos": 396,
+    "fake_videos": 410,
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/wild_FRAMES.jsonl",
+    "baseline_videos": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/wild_VIDEOS.json"
+  },
+  "uadfv": {
+    "manifest": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/manifests/uadfv.json",
+    "manifest_sha256": "7bb3b24f71c06e1c4f877468ab13ac87fa0e2b94d5dc4db0c10f615d9510c0db",
+    "frames": 2848,
+    "real_videos": 44,
+    "fake_videos": 45,
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/uadfv_FRAMES.jsonl",
+    "baseline_videos": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/uadfv_VIDEOS.json"
+  }
+}

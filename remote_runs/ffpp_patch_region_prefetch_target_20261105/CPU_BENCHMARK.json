@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "registration_sha256": "707ee19e106a00bb5ef6d9e8c5b2c50f64d42402ef61ef96a482def6ebb0beb8",
+  "trials": [
+    {
+      "parallel": false,
+      "seconds": 1.1946201659739017,
+      "frames": 256,
+      "pixel_sha256": "a3e8617a5052588e4536121ee2cf9b715894c96ff09a4bb72c4c3dda24de6072"
+    },
+    {
+      "parallel": true,
+      "seconds": 0.6150517277419567,
+      "frames": 256,
+      "pixel_sha256": "a3e8617a5052588e4536121ee2cf9b715894c96ff09a4bb72c4c3dda24de6072"
+    },
+    {
+      "parallel": true,
+      "seconds": 0.581936065107584,
+      "frames": 256,
+      "pixel_sha256": "a3e8617a5052588e4536121ee2cf9b715894c96ff09a4bb72c4c3dda24de6072"
+    },
+    {
+      "parallel": false,
+      "seconds": 1.1713522151112556,
+      "frames": 256,
+      "pixel_sha256": "a3e8617a5052588e4536121ee2cf9b715894c96ff09a4bb72c4c3dda24de6072"
+    }
+  ],
+  "total_image_reads": 1024,
+  "original_serial_pixels_equal_new_prefetch": true,
+  "speedup": 1.9766052713476219,
+  "source_state": {
+    "time": "2026-11-05T03:14:00.289695+00:00",
+    "stage": "training",
+    "resources": {
+      "memory_cap": 26843545600,
+      "memory_used": 10508111872,
+      "disk_free": 17136431104
+    },
+    "seed": 3407,
+    "arm": "PatchClassificationContrast",
+    "epoch": 8,
+    "step": 200,
+    "total": 719,
+    "loss": 0.8062350749969482
+  },
+  "shared_training_load": true,
+  "nice": 19,
+  "CUDA_used": false,
+  "memory_used": 10546880512
+}

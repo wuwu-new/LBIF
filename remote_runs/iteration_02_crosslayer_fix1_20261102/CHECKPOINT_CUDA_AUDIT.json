@@ -1,0 +1,369 @@
+{
+  "passed": true,
+  "models_cuda_only": true,
+  "records": [
+    {
+      "identity": [
+        "LastLayerResidual",
+        0,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "4bc43b386b0be692714142aa412d7ad9019a1cae5b7fba9d08da6ebe973bf781",
+      "optimizer_steps": 0,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        1,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "75c0b4980261ac05920dde8835cd5319767d0003dabe6d5a74664fb71929c246",
+      "optimizer_steps": 719,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        2,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "01bb791d56bc5a61b749802c64797b156cad4f4b770a92ade533ff3633f7a332",
+      "optimizer_steps": 1438,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        3,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "894652eecde2bc3bb1e342019f471caaed7ccf41714baa24bf5646f7a0f8340b",
+      "optimizer_steps": 2157,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        4,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "4d015598269ec3b01759780f5f8121f3494557a4711389b536f32301ac37bdc2",
+      "optimizer_steps": 2876,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        5,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "b043d2e4756d1380f08f7b04bef98eda54e23e656a1baa81b44761162ee64dde",
+      "optimizer_steps": 3595,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        6,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "04d6e45eaf76c28ac2d28a82acde9554c6e9f09a174b1ec53505698135d5c111",
+      "optimizer_steps": 4314,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        7,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "e513612457375c9ecb491ea527617084912b650a8a04bc72a6624486b8194588",
+      "optimizer_steps": 5033,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        8,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "a6730ddb75281f85ab4a8892537482a7b6bc78aac474a4243995f98865221824",
+      "optimizer_steps": 5752,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        9,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "803b751ea2236adf8d40e7078df8b962b2132043237160d7a92c09586dabb47e",
+      "optimizer_steps": 6471,
+      "passed": true
+    },
+    {
+      "identity": [
+        "LastLayerResidual",
+        10,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "41e63642bef3b7d64de0fac755d458a259df0c2deaca5a813568039a0c8973af",
+      "optimizer_steps": 7190,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        0,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "4bc43b386b0be692714142aa412d7ad9019a1cae5b7fba9d08da6ebe973bf781",
+      "optimizer_steps": 0,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        1,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "1e092819fd682da8c9f9bb28f0de8a58ee3fe3885873d450877d725f6ec7df48",
+      "optimizer_steps": 719,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        2,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "a1056043f3d7345f1132804cb8826329269d43469ac6696b9e71eb1099eb8d5f",
+      "optimizer_steps": 1438,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        3,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "a3646d0096855eb3987a127bbff4c3772edacd40175db06110ed6f92fd0df71e",
+      "optimizer_steps": 2157,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        4,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "202955743669d60ffe54c4d9f618fd8c41b0c7312ef7e16c50208d792406642b",
+      "optimizer_steps": 2876,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        5,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "7b9d4f5406577a791aa263e565910ebc28c9177e70336f20f3117f7664744063",
+      "optimizer_steps": 3595,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        6,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "78d8c9d7c905a477a1fa3fab0d80edae6b74986062d2404d72fdb02949e196f1",
+      "optimizer_steps": 4314,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        7,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "3e42f4ecfc107636265fec1e77476d533a2f0f66560f17fa97360ab54026768f",
+      "optimizer_steps": 5033,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        8,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "0c23de4f63d9458f4230852e592300e3f8b7b21835fb23dcc5f084a0c2793551",
+      "optimizer_steps": 5752,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        9,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "e032bdaa3c21a6a64355bcac5a3ad6c2a370da1308d46249891158434e9f72ea",
+      "optimizer_steps": 6471,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerResidual",
+        10,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "4fe11e4f42ee5696398214430ddebdb2b5f4b985074370668d6fb3338d023ee8",
+      "optimizer_steps": 7190,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        0,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "afe22bc238c102244c1877184c79784d87c9c7c2131142a49e22ca956ec05089",
+      "optimizer_steps": 0,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        1,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "b47ca4f61c2bd5b9bec47e72ef1cac3d371928e5582a3c5cc1e973376113d31b",
+      "optimizer_steps": 719,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        2,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "28e5ba6b34fa3552af85dd64edc61cc49fae21d0cdc454e2bd54c1c1bc6813dd",
+      "optimizer_steps": 1438,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        3,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "96b5511d3a549164fec5f14d11e65568fd6fc92570106b15b233e4e171829a33",
+      "optimizer_steps": 2157,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        4,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "dbc0a4d2cd115fa34c1ce452d1711799f75381625c4051640aca93ec1f82f250",
+      "optimizer_steps": 2876,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        5,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "367b3f88c11f0ba96ff807b30ea09f4631c1c8a851bc9d993f32bf4558c43f4c",
+      "optimizer_steps": 3595,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        6,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "0a134eeb5cc82ebddd4313e57c3b6cc005a81c3f32bc21b95031b26b4f908226",
+      "optimizer_steps": 4314,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        7,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "8cdc34a9adcf8d8a2c1ab19b954faf7f5ce63f12ebeb96a08025c98e5822695d",
+      "optimizer_steps": 5033,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        8,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "49f08964c7e20cc6e4b63a0c661d4b4ac6831f3a6bcb5c2d2245503bd47f20f8",
+      "optimizer_steps": 5752,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        9,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "d8bc1a8c37660cd948312532d44695a352db19719ae53e7b21bcf554042ea19c",
+      "optimizer_steps": 6471,
+      "passed": true
+    },
+    {
+      "identity": [
+        "CrossLayerNoImage",
+        10,
+        2027,
+        "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+      ],
+      "model_tensor_sha256": "7ee1e653cc4e2d8c6d9ceecb0edf93e80745de0e2fb918d4e1c8b41a5fd12085",
+      "optimizer_steps": 7190,
+      "passed": true
+    }
+  ]
+}

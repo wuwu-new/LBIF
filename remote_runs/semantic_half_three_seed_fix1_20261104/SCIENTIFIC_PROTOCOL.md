@@ -1,0 +1,11 @@
+# SemanticHalf三种子：独立CUDA加载兼容修复
+
+完整科学协议仍是docs108，用户授权docs107：2027/3407/4099、原TRAIN11492帧、10epoch、新两seed各7190保留更新、完整源VAL及固定七域。所有数值预算、模型结构/初始化、loss、抽样、权重终点、原尺度控制和报告不变。
+
+失败父目录semantic_half_three_seed_20261104，注册288ffb457b4e0b607cc66166ba845cb491f62bf1ec99cd11362f682f172a53b4，源独立预检在safetensors0.8.0的load_file/get_tensors批量CUDA加载阶段返回invalid argument。原子证据保留原日志、异常、启动、CUDA owner及退出资源状态。该位置在任何CLIP/model前向及optimizer更新前，失败分支0模型帧前向/0更新。不是数值重放失败，不改2e-7，不称CUDA通过。
+
+独立修复目录semantic_half_three_seed_fix1_20261104。本修复只把批量load_file替换为safe_open(framework='pt',device=0,backend='pread')逐key get_tensor，确认每个返回tensor均在CUDA；继续from_pretrained的相同结构/attention配置和相同SHA权重。无CPU模型、CPU推理、网络下载或包升级。记录safetensors Python加载器和原生扩展SHA。
+
+新目录重新冻结注册、独立预检通过并退出才训练，预检预算仍两新seed各2个一次性更新；失败父分支零更新不会充当已通过预检。必须继续通过旧2027初始化SHA、旧源64帧logit与32帧cache核对；只修加载接口，不允许借机变模型、输入、RNG、目标或精度标准。若仍失败留证停止对应执行路径，不能原地覆盖或盲目循环重试。
+
+原始docs108随包保存；旧失败目录和注册永远不改。源和目标独立数值核验/报告全部采用fix1自己的冻结代码。旧十轮、V4b五seed及automation继续暂停，ROUNDS3不变。

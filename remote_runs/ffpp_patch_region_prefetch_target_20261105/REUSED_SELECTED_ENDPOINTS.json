@@ -1,0 +1,179 @@
+{
+  "2027": {
+    "seed": 2027,
+    "epoch": 10,
+    "checkpoint_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_full_fix2_20261104/seeds/2027/epoch_10.pt",
+    "checkpoint_sha256": "6d64fb9c19d417f992e878d2b389419e60c0dee87773321396559e102d611fe3",
+    "checkpoint_registration_sha256": "4e7ce9ae6ac3e109e08ae67a63f0a98a20bb1546618ae9406030b6cea19d1d85",
+    "model_sha256": "055812bd4b83892e13eb505bbb50d4f8f985f1ecb110846432b70048b73745c8",
+    "reused_frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_full_fix2_20261104/seeds/2027/FRAMES.csv",
+    "reused_localization_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_full_fix2_20261104/seeds/2027/LOCALIZATION_PER_FRAME.json",
+    "auc_numerator": 12457,
+    "auc_denominator": 12696,
+    "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_sourcebest_20261104/evaluation/2027/epoch_10/FRAMES.csv",
+    "frames_sha256": "72f53d5adc9d8d96ff2f81253b7a942fa3bc82c9eb87655cf0033affd0c837da",
+    "localization_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_sourcebest_20261104/evaluation/2027/epoch_10/LOCALIZATION_PER_FRAME.json",
+    "localization_sha256": "ffbce26dd0893a114b6760f0228934fbb0423db22c877b4fa60aee1578e422bc",
+    "metrics": {
+      "frames": 22080,
+      "videos": 690,
+      "families": 70,
+      "real_frames": 4416,
+      "fake_frames": 17664,
+      "real_videos": 138,
+      "fake_videos": 552,
+      "frame_AUC": 0.964027781367327,
+      "video_AUC": 0.9811751732829238,
+      "BCE": 0.2234011405037218,
+      "frame_FP": 670,
+      "frame_FN": 1334,
+      "FP": 17,
+      "FN": 30,
+      "per_method": {
+        "Deepfakes": {
+          "videos": 274,
+          "real_videos": 138,
+          "fake_videos": 136,
+          "AUC": 0.9963768115942029
+        },
+        "Face2Face": {
+          "videos": 277,
+          "real_videos": 138,
+          "fake_videos": 139,
+          "AUC": 0.992284433322907
+        },
+        "FaceSwap": {
+          "videos": 276,
+          "real_videos": 138,
+          "fake_videos": 138,
+          "AUC": 0.9949065322411258
+        },
+        "NeuralTextures": {
+          "videos": 277,
+          "real_videos": 138,
+          "fake_videos": 139,
+          "AUC": 0.9415597956417475
+        }
+      }
+    },
+    "evaluation_reused": true
+  },
+  "3407": {
+    "seed": 3407,
+    "epoch": 1,
+    "checkpoint_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_full_fix2_20261104/seeds/3407/epoch_01.pt",
+    "checkpoint_sha256": "4b999444e7c5c1185ce545ec156803897cfa9b0b5a2fde55717729f5362d0188",
+    "checkpoint_registration_sha256": "4e7ce9ae6ac3e109e08ae67a63f0a98a20bb1546618ae9406030b6cea19d1d85",
+    "model_sha256": "67cbced17d7fcc91815354639cad46c150fc56ee93a70df22609bd82ad881057",
+    "reused_frames_path": null,
+    "reused_localization_path": null,
+    "auc_numerator": 6229,
+    "auc_denominator": 6348,
+    "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_sourcebest_20261104/evaluation/3407/epoch_01/FRAMES.csv",
+    "frames_sha256": "4454f2e6ba9ae0c185d4f5ddde1fc61129b108c3cc5fc89d82adef1e532a1fd0",
+    "localization_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_sourcebest_20261104/evaluation/3407/epoch_01/LOCALIZATION_PER_FRAME.json",
+    "localization_sha256": "f41c6e2f0ab22914c82323cd653ae111d54302ff393c6dc1f091be666ee00228",
+    "metrics": {
+      "frames": 22080,
+      "videos": 690,
+      "families": 70,
+      "real_frames": 4416,
+      "fake_frames": 17664,
+      "real_videos": 138,
+      "fake_videos": 552,
+      "frame_AUC": 0.964634517740988,
+      "video_AUC": 0.9812539382482671,
+      "BCE": 0.24017365582275083,
+      "frame_FP": 578,
+      "frame_FN": 1537,
+      "FP": 13,
+      "FN": 39,
+      "per_method": {
+        "Deepfakes": {
+          "videos": 274,
+          "real_videos": 138,
+          "fake_videos": 136,
+          "AUC": 0.9958972719522592
+        },
+        "Face2Face": {
+          "videos": 277,
+          "real_videos": 138,
+          "fake_videos": 139,
+          "AUC": 0.9928057553956835
+        },
+        "FaceSwap": {
+          "videos": 276,
+          "real_videos": 138,
+          "fake_videos": 138,
+          "AUC": 0.9928061331653014
+        },
+        "NeuralTextures": {
+          "videos": 277,
+          "real_videos": 138,
+          "fake_videos": 139,
+          "AUC": 0.943905744969242
+        }
+      }
+    },
+    "evaluation_reused": false
+  },
+  "4099": {
+    "seed": 4099,
+    "epoch": 10,
+    "checkpoint_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_full_fix2_20261104/seeds/4099/epoch_10.pt",
+    "checkpoint_sha256": "61b0d09720e207d61348e312cdd9570db3081c49b7fe1f8bf1c537993517ec50",
+    "checkpoint_registration_sha256": "4e7ce9ae6ac3e109e08ae67a63f0a98a20bb1546618ae9406030b6cea19d1d85",
+    "model_sha256": "ca790ceb8afdc5e258a770f7bd680de9c7d7adb3bb73866fc488a8fd189c0ce3",
+    "reused_frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_full_fix2_20261104/seeds/4099/FRAMES.csv",
+    "reused_localization_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_full_fix2_20261104/seeds/4099/LOCALIZATION_PER_FRAME.json",
+    "auc_numerator": 18703,
+    "auc_denominator": 19044,
+    "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_sourcebest_20261104/evaluation/4099/epoch_10/FRAMES.csv",
+    "frames_sha256": "4d8217e1d08b7c0ee6780f70d54b85bf4901d8339f41a6c28aade3f879893a9a",
+    "localization_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_legacy_delta_sourcebest_20261104/evaluation/4099/epoch_10/LOCALIZATION_PER_FRAME.json",
+    "localization_sha256": "250962a7dc6cc173c493b81315ba672772ac01d986d6542f0bb928fc03ee6fa6",
+    "metrics": {
+      "frames": 22080,
+      "videos": 690,
+      "families": 70,
+      "real_frames": 4416,
+      "fake_frames": 17664,
+      "real_videos": 138,
+      "fake_videos": 552,
+      "frame_AUC": 0.9654380767892775,
+      "video_AUC": 0.9820940978785969,
+      "BCE": 0.23771030021257497,
+      "frame_FP": 541,
+      "frame_FN": 1599,
+      "FP": 11,
+      "FN": 37,
+      "per_method": {
+        "Deepfakes": {
+          "videos": 274,
+          "real_videos": 138,
+          "fake_videos": 136,
+          "AUC": 0.9965899403239556
+        },
+        "Face2Face": {
+          "videos": 277,
+          "real_videos": 138,
+          "fake_videos": 139,
+          "AUC": 0.99332707746846
+        },
+        "FaceSwap": {
+          "videos": 276,
+          "real_videos": 138,
+          "fake_videos": 138,
+          "AUC": 0.9944339424490654
+        },
+        "NeuralTextures": {
+          "videos": 277,
+          "real_videos": 138,
+          "fake_videos": 139,
+          "AUC": 0.9444270670420185
+        }
+      }
+    },
+    "evaluation_reused": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "container_pid": 539111,
+  "nvml_owned_context_pid": 371511,
+  "pid_namespaces_differ": true,
+  "binding": "empty before context under project lease; exactly one after owned CUDA initialization"
+}

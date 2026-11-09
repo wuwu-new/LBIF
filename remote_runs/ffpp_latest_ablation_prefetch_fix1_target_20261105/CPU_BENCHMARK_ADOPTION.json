@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "registration_sha256": "2ad2d761c09daac13009e3be3bdc4457c08f16739ec5b610a484c2d906f187da",
+  "reference_registration_sha256": "c1092fe9f0c069ba14121cf6935f74a2e6e28b02bb42fced0c70befa51438a01",
+  "reference_sha256": "5ddffd0f6254028dc92273c0d5d401ef387e2e41869691b8f24e984dfbb821a2",
+  "original_remote_cpu_sha256": "951cafdcc9a5f8ef6439ea4be78b313cd460356fc5fd327afc656ac04bba6484",
+  "canonical_sha256": "4711b45ce85afc51281c430750e0646c18c65e6b2f025abc6c55703117eb67c3",
+  "JSON_values_identical": true,
+  "metadata_serialization_only": "LF vs CRLF",
+  "input_and_decoder_byte_SHA_unchanged": true,
+  "speedup": 2.1840619739493836,
+  "reference_image_reads": 1024,
+  "new_image_reads": 0,
+  "CUDA_used": false,
+  "same_decoder_and_inputs": true,
+  "target_CUDA_pending": true
+}

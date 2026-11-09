@@ -1,0 +1,1393 @@
+{
+  "passed": true,
+  "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+  "selection_lock_sha256": "3bc8152210d5e205b3e0b9b0b55657821aff3d0230f4893fde95edf5ed2dde2a",
+  "source_only": true,
+  "independent_saved_score_verification": true,
+  "neural_rerun": false,
+  "verified_epochs": 50,
+  "model_tolerance_unchanged": 2e-07,
+  "exact_source_selection": true,
+  "video_replays": [
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 1,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 2,
+      "max_ULPs": 2.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 3,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 4,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 5,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 6,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 7,
+      "max_ULPs": 2.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 8,
+      "max_ULPs": 2.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 9,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 10,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 1,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 2,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 3,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 4,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 5,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 6,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 7,
+      "max_ULPs": 2.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 8,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 9,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 10,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 1,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 2,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 3,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 4,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 5,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 6,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 7,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 8,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 9,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 10,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 1,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 2,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 3,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 4,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 5,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 6,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 7,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 8,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 9,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 10,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 1,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 2,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 3,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 4,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 5,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 6,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 7,
+      "max_ULPs": 1.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 8,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 9,
+      "max_ULPs": 0.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    },
+    {
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 10,
+      "max_ULPs": 2.0,
+      "all_cross_class_ranks_and_ties_exact": true
+    }
+  ],
+  "results": {
+    "2027": {
+      "SemanticBranch": {
+        "selected_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9642198991685373,
+          "video_AUC": 0.9810964083175804,
+          "auc_fraction": [
+            519,
+            529
+          ],
+          "BCE": 0.2307279445876932,
+          "FP": 15,
+          "FN": 31
+        },
+        "reused": true
+      },
+      "LatestFull": {
+        "selected_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9638437272320022,
+          "video_AUC": 0.9814639781558496,
+          "auc_fraction": [
+            18691,
+            19044
+          ],
+          "BCE": 0.2195052200479587,
+          "FP": 17,
+          "FN": 25
+        },
+        "selected_epoch": 10,
+        "reused": true
+      },
+      "RGBFull": {
+        "selected_epoch": 7,
+        "selected_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9642055345618207,
+          "video_AUC": 0.9811620457886998,
+          "auc_fraction": [
+            74741,
+            76176
+          ],
+          "BCE": 0.22936561451969084,
+          "FP": 15,
+          "FN": 30
+        },
+        "epoch10_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9639256202330787,
+          "video_AUC": 0.9810438983406847,
+          "auc_fraction": [
+            18683,
+            19044
+          ],
+          "BCE": 0.22752276973533048,
+          "FP": 15,
+          "FN": 30
+        },
+        "selected_minus_semantic": {
+          "delta_pp": 0.006563747111951271,
+          "repaired": 1,
+          "harmed": 0
+        },
+        "selected_minus_latest_full": {
+          "delta_pp": -0.030193236714975844,
+          "repaired": 2,
+          "harmed": 5
+        },
+        "per_method": {
+          "Deepfakes": {
+            "real_videos": 138,
+            "fake_videos": 136,
+            "video_AUC": 0.9960038363171355
+          },
+          "Face2Face": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.992284433322907
+          },
+          "FaceSwap": {
+            "real_videos": 138,
+            "fake_videos": 138,
+            "video_AUC": 0.9952215921024995
+          },
+          "NeuralTextures": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.9415597956417475
+          }
+        },
+        "localization": {
+          "threshold": 0.5,
+          "truth_threshold": 0.1,
+          "tolerance_pixels": 2,
+          "eligible_only": true,
+          "per_method": {
+            "Deepfakes": {
+              "frames": 4351,
+              "GT_pixels": 8147910,
+              "predicted": 726551,
+              "precision_hits": 316075,
+              "recall_hits": 689887,
+              "response_sum": 419.2772783432156,
+              "patch_TP": 206773,
+              "patch_FP": 26704,
+              "patch_FN": 82306,
+              "patch_TN": 798073,
+              "patch_mixed": 129239
+            },
+            "Face2Face": {
+              "frames": 4447,
+              "GT_pixels": 8546933,
+              "predicted": 420229,
+              "precision_hits": 376445,
+              "recall_hits": 1110672,
+              "response_sum": 290.00415971688926,
+              "patch_TP": 213779,
+              "patch_FP": 7084,
+              "patch_FN": 163231,
+              "patch_TN": 754338,
+              "patch_mixed": 156975
+            },
+            "FaceSwap": {
+              "frames": 124,
+              "GT_pixels": 236942,
+              "predicted": 7591,
+              "precision_hits": 2877,
+              "recall_hits": 6229,
+              "response_sum": 5.710251197218895,
+              "patch_TP": 4311,
+              "patch_FP": 752,
+              "patch_FN": 4569,
+              "patch_TN": 22112,
+              "patch_mixed": 4359
+            },
+            "NeuralTextures": {
+              "frames": 4448,
+              "GT_pixels": 8531437,
+              "predicted": 304004,
+              "precision_hits": 253677,
+              "recall_hits": 743837,
+              "response_sum": 295.2788689658046,
+              "patch_TP": 216526,
+              "patch_FP": 7458,
+              "patch_FN": 159397,
+              "patch_TN": 755307,
+              "patch_mixed": 156761
+            },
+            "real": {
+              "frames": 4416,
+              "GT_pixels": 0,
+              "predicted": 221370,
+              "precision_hits": 0,
+              "recall_hits": 0,
+              "response_sum": 225.72902454435825,
+              "patch_TP": 0,
+              "patch_FP": 188744,
+              "patch_FN": 0,
+              "patch_TN": 941752,
+              "patch_mixed": 0
+            }
+          }
+        },
+        "patch_classifier_supervised": true,
+        "all_epoch_video_AUC": [
+          0.9810570258349086,
+          0.9810701533291325,
+          0.9810832808233564,
+          0.981135790800252,
+          0.9811226633060282,
+          0.9811226633060282,
+          0.9811620457886998,
+          0.9811226633060282,
+          0.9810832808233564,
+          0.9810438983406847
+        ],
+        "reused": false
+      },
+      "UniformPoolFull": {
+        "selected_epoch": 10,
+        "selected_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9632214147787689,
+          "video_AUC": 0.981542743121193,
+          "auc_fraction": [
+            37385,
+            38088
+          ],
+          "BCE": 0.22550354788338012,
+          "FP": 15,
+          "FN": 29
+        },
+        "epoch10_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9632214147787689,
+          "video_AUC": 0.981542743121193,
+          "auc_fraction": [
+            37385,
+            38088
+          ],
+          "BCE": 0.22550354788338012,
+          "FP": 15,
+          "FN": 29
+        },
+        "selected_minus_semantic": {
+          "delta_pp": 0.04463348036126864,
+          "repaired": 5,
+          "harmed": 3
+        },
+        "selected_minus_latest_full": {
+          "delta_pp": 0.007876496534341524,
+          "repaired": 2,
+          "harmed": 4
+        },
+        "per_method": {
+          "Deepfakes": {
+            "real_videos": 138,
+            "fake_videos": 136,
+            "video_AUC": 0.9963768115942029
+          },
+          "Face2Face": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.991971640079241
+          },
+          "FaceSwap": {
+            "real_videos": 138,
+            "fake_videos": 138,
+            "video_AUC": 0.9948015122873346
+          },
+          "NeuralTextures": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.9434365551037431
+          }
+        },
+        "localization": {
+          "threshold": 0.5,
+          "truth_threshold": 0.1,
+          "tolerance_pixels": 2,
+          "eligible_only": true,
+          "per_method": {
+            "Deepfakes": {
+              "frames": 4351,
+              "GT_pixels": 8147910,
+              "predicted": 611422,
+              "precision_hits": 316688,
+              "recall_hits": 542536,
+              "response_sum": 480.03377017658204,
+              "patch_TP": 201131,
+              "patch_FP": 56147,
+              "patch_FN": 87948,
+              "patch_TN": 768630,
+              "patch_mixed": 129239
+            },
+            "Face2Face": {
+              "frames": 4447,
+              "GT_pixels": 8546933,
+              "predicted": 326102,
+              "precision_hits": 295623,
+              "recall_hits": 969351,
+              "response_sum": 277.9886131831445,
+              "patch_TP": 207124,
+              "patch_FP": 11459,
+              "patch_FN": 169886,
+              "patch_TN": 749963,
+              "patch_mixed": 156975
+            },
+            "FaceSwap": {
+              "frames": 124,
+              "GT_pixels": 236942,
+              "predicted": 1353,
+              "precision_hits": 421,
+              "recall_hits": 1112,
+              "response_sum": 3.543498907238245,
+              "patch_TP": 2293,
+              "patch_FP": 978,
+              "patch_FN": 6587,
+              "patch_TN": 21886,
+              "patch_mixed": 4359
+            },
+            "NeuralTextures": {
+              "frames": 4448,
+              "GT_pixels": 8531437,
+              "predicted": 233580,
+              "precision_hits": 171575,
+              "recall_hits": 540462,
+              "response_sum": 311.78290698770434,
+              "patch_TP": 218100,
+              "patch_FP": 17551,
+              "patch_FN": 157823,
+              "patch_TN": 745214,
+              "patch_mixed": 156761
+            },
+            "real": {
+              "frames": 4416,
+              "GT_pixels": 0,
+              "predicted": 50116,
+              "precision_hits": 0,
+              "recall_hits": 0,
+              "response_sum": 139.32870447728783,
+              "patch_TP": 0,
+              "patch_FP": 80693,
+              "patch_FN": 0,
+              "patch_TN": 1049803,
+              "patch_mixed": 0
+            }
+          }
+        },
+        "patch_classifier_supervised": true,
+        "all_epoch_video_AUC": [
+          0.9810701533291325,
+          0.9811620457886998,
+          0.9811095358118043,
+          0.9810964083175804,
+          0.9812408107540432,
+          0.9813458307078345,
+          0.9813983406847301,
+          0.9811489182944759,
+          0.9813852131905062,
+          0.981542743121193
+        ],
+        "reused": false
+      },
+      "NoPatchClassification": {
+        "selected_epoch": 10,
+        "selected_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9640139103236256,
+          "video_AUC": 0.9813589582020584,
+          "auc_fraction": [
+            18689,
+            19044
+          ],
+          "BCE": 0.22284027396777142,
+          "FP": 16,
+          "FN": 29
+        },
+        "epoch10_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9640139103236256,
+          "video_AUC": 0.9813589582020584,
+          "auc_fraction": [
+            18689,
+            19044
+          ],
+          "BCE": 0.22284027396777142,
+          "FP": 16,
+          "FN": 29
+        },
+        "selected_minus_semantic": {
+          "delta_pp": 0.026254988447805085,
+          "repaired": 2,
+          "harmed": 1
+        },
+        "selected_minus_latest_full": {
+          "delta_pp": -0.010501995379122032,
+          "repaired": 1,
+          "harmed": 4
+        },
+        "per_method": {
+          "Deepfakes": {
+            "real_videos": 138,
+            "fake_videos": 136,
+            "video_AUC": 0.996430093776641
+          },
+          "Face2Face": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.9923365655301846
+          },
+          "FaceSwap": {
+            "real_videos": 138,
+            "fake_videos": 138,
+            "video_AUC": 0.995011552194917
+          },
+          "NeuralTextures": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.9420811177145241
+          }
+        },
+        "localization": {
+          "threshold": 0.5,
+          "truth_threshold": 0.1,
+          "tolerance_pixels": 2,
+          "eligible_only": true,
+          "per_method": {
+            "Deepfakes": {
+              "frames": 4351,
+              "GT_pixels": 8147910,
+              "predicted": 397845,
+              "precision_hits": 227066,
+              "recall_hits": 482460,
+              "response_sum": 506.8785842163488,
+              "patch_TP": 2748,
+              "patch_FP": 8352,
+              "patch_FN": 286331,
+              "patch_TN": 816425,
+              "patch_mixed": 129239
+            },
+            "Face2Face": {
+              "frames": 4447,
+              "GT_pixels": 8546933,
+              "predicted": 201047,
+              "precision_hits": 174377,
+              "recall_hits": 770674,
+              "response_sum": 301.79561813222244,
+              "patch_TP": 4022,
+              "patch_FP": 6649,
+              "patch_FN": 372988,
+              "patch_TN": 754773,
+              "patch_mixed": 156975
+            },
+            "FaceSwap": {
+              "frames": 124,
+              "GT_pixels": 236942,
+              "predicted": 1023,
+              "precision_hits": 368,
+              "recall_hits": 982,
+              "response_sum": 3.5998514387756586,
+              "patch_TP": 31,
+              "patch_FP": 251,
+              "patch_FN": 8849,
+              "patch_TN": 22613,
+              "patch_mixed": 4359
+            },
+            "NeuralTextures": {
+              "frames": 4448,
+              "GT_pixels": 8531437,
+              "predicted": 95656,
+              "precision_hits": 66626,
+              "recall_hits": 299469,
+              "response_sum": 313.71443325979635,
+              "patch_TP": 4815,
+              "patch_FP": 7269,
+              "patch_FN": 371108,
+              "patch_TN": 755496,
+              "patch_mixed": 156761
+            },
+            "real": {
+              "frames": 4416,
+              "GT_pixels": 0,
+              "predicted": 27915,
+              "precision_hits": 0,
+              "recall_hits": 0,
+              "response_sum": 145.02355086477473,
+              "patch_TP": 0,
+              "patch_FP": 11075,
+              "patch_FN": 0,
+              "patch_TN": 1119421,
+              "patch_mixed": 0
+            }
+          }
+        },
+        "patch_classifier_supervised": false,
+        "all_epoch_video_AUC": [
+          0.9810701533291325,
+          0.9810570258349086,
+          0.9810438983406847,
+          0.9811095358118043,
+          0.9811226633060282,
+          0.9809782608695652,
+          0.9810307708464608,
+          0.9812408107540432,
+          0.9810832808233564,
+          0.9813589582020584
+        ],
+        "reused": false
+      },
+      "NoRegionContrast": {
+        "selected_epoch": 10,
+        "selected_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9640135257290682,
+          "video_AUC": 0.9816477630749842,
+          "auc_fraction": [
+            12463,
+            12696
+          ],
+          "BCE": 0.22001697772143716,
+          "FP": 16,
+          "FN": 27
+        },
+        "epoch10_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9640135257290682,
+          "video_AUC": 0.9816477630749842,
+          "auc_fraction": [
+            12463,
+            12696
+          ],
+          "BCE": 0.22001697772143716,
+          "FP": 16,
+          "FN": 27
+        },
+        "selected_minus_semantic": {
+          "delta_pp": 0.055135475740390676,
+          "repaired": 4,
+          "harmed": 1
+        },
+        "selected_minus_latest_full": {
+          "delta_pp": 0.01837849191346356,
+          "repaired": 1,
+          "harmed": 2
+        },
+        "per_method": {
+          "Deepfakes": {
+            "real_videos": 138,
+            "fake_videos": 136,
+            "video_AUC": 0.9964833759590793
+          },
+          "Face2Face": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.9924929621520175
+          },
+          "FaceSwap": {
+            "real_videos": 138,
+            "fake_videos": 138,
+            "video_AUC": 0.9948015122873346
+          },
+          "NeuralTextures": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.9432280262746324
+          }
+        },
+        "localization": {
+          "threshold": 0.5,
+          "truth_threshold": 0.1,
+          "tolerance_pixels": 2,
+          "eligible_only": true,
+          "per_method": {
+            "Deepfakes": {
+              "frames": 4351,
+              "GT_pixels": 8147910,
+              "predicted": 1554093,
+              "precision_hits": 763377,
+              "recall_hits": 1217265,
+              "response_sum": 571.856394005008,
+              "patch_TP": 191370,
+              "patch_FP": 58462,
+              "patch_FN": 97709,
+              "patch_TN": 766315,
+              "patch_mixed": 129239
+            },
+            "Face2Face": {
+              "frames": 4447,
+              "GT_pixels": 8546933,
+              "predicted": 1004710,
+              "precision_hits": 864912,
+              "recall_hits": 1864972,
+              "response_sum": 371.67961800284684,
+              "patch_TP": 176160,
+              "patch_FP": 12714,
+              "patch_FN": 200850,
+              "patch_TN": 748708,
+              "patch_mixed": 156975
+            },
+            "FaceSwap": {
+              "frames": 124,
+              "GT_pixels": 236942,
+              "predicted": 6751,
+              "precision_hits": 1297,
+              "recall_hits": 2893,
+              "response_sum": 4.381331643555313,
+              "patch_TP": 818,
+              "patch_FP": 434,
+              "patch_FN": 8062,
+              "patch_TN": 22430,
+              "patch_mixed": 4359
+            },
+            "NeuralTextures": {
+              "frames": 4448,
+              "GT_pixels": 8531437,
+              "predicted": 719493,
+              "precision_hits": 513852,
+              "recall_hits": 1167909,
+              "response_sum": 399.6967298462987,
+              "patch_TP": 187927,
+              "patch_FP": 18369,
+              "patch_FN": 187996,
+              "patch_TN": 744396,
+              "patch_mixed": 156761
+            },
+            "real": {
+              "frames": 4416,
+              "GT_pixels": 0,
+              "predicted": 192483,
+              "precision_hits": 0,
+              "recall_hits": 0,
+              "response_sum": 168.2210145869758,
+              "patch_TP": 0,
+              "patch_FP": 53993,
+              "patch_FN": 0,
+              "patch_TN": 1076503,
+              "patch_mixed": 0
+            }
+          }
+        },
+        "patch_classifier_supervised": true,
+        "all_epoch_video_AUC": [
+          0.9810570258349086,
+          0.9811620457886998,
+          0.9812014282713716,
+          0.9810964083175804,
+          0.9811620457886998,
+          0.9812145557655955,
+          0.9812539382482671,
+          0.9812145557655955,
+          0.9813327032136105,
+          0.9816477630749842
+        ],
+        "reused": false
+      },
+      "NoPatchLearningMatched": {
+        "selected_epoch": 10,
+        "selected_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9640255571288037,
+          "video_AUC": 0.9811751732829238,
+          "auc_fraction": [
+            12457,
+            12696
+          ],
+          "BCE": 0.22340650612061436,
+          "FP": 17,
+          "FN": 30
+        },
+        "epoch10_metrics": {
+          "frames": 22080,
+          "videos": 690,
+          "families": 70,
+          "real_frames": 4416,
+          "fake_frames": 17664,
+          "real_videos": 138,
+          "fake_videos": 552,
+          "frame_AUC": 0.9640255571288037,
+          "video_AUC": 0.9811751732829238,
+          "auc_fraction": [
+            12457,
+            12696
+          ],
+          "BCE": 0.22340650612061436,
+          "FP": 17,
+          "FN": 30
+        },
+        "selected_minus_semantic": {
+          "delta_pp": 0.007876496534341524,
+          "repaired": 1,
+          "harmed": 2
+        },
+        "selected_minus_latest_full": {
+          "delta_pp": -0.028880487292585594,
+          "repaired": 0,
+          "harmed": 5
+        },
+        "per_method": {
+          "Deepfakes": {
+            "real_videos": 138,
+            "fake_videos": 136,
+            "video_AUC": 0.9963768115942029
+          },
+          "Face2Face": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.992284433322907
+          },
+          "FaceSwap": {
+            "real_videos": 138,
+            "fake_videos": 138,
+            "video_AUC": 0.9949065322411258
+          },
+          "NeuralTextures": {
+            "real_videos": 138,
+            "fake_videos": 139,
+            "video_AUC": 0.9415597956417475
+          }
+        },
+        "localization": {
+          "threshold": 0.5,
+          "truth_threshold": 0.1,
+          "tolerance_pixels": 2,
+          "eligible_only": true,
+          "per_method": {
+            "Deepfakes": {
+              "frames": 4351,
+              "GT_pixels": 8147910,
+              "predicted": 686902,
+              "precision_hits": 343524,
+              "recall_hits": 752607,
+              "response_sum": 371.73787826579064,
+              "patch_TP": 93086,
+              "patch_FP": 212153,
+              "patch_FN": 195993,
+              "patch_TN": 612624,
+              "patch_mixed": 129239
+            },
+            "Face2Face": {
+              "frames": 4447,
+              "GT_pixels": 8546933,
+              "predicted": 500380,
+              "precision_hits": 466549,
+              "recall_hits": 1331757,
+              "response_sum": 223.57135628303513,
+              "patch_TP": 105929,
+              "patch_FP": 197183,
+              "patch_FN": 271081,
+              "patch_TN": 564239,
+              "patch_mixed": 156975
+            },
+            "FaceSwap": {
+              "frames": 124,
+              "GT_pixels": 236942,
+              "predicted": 1550,
+              "precision_hits": 135,
+              "recall_hits": 445,
+              "response_sum": 2.5991114624775946,
+              "patch_TP": 2298,
+              "patch_FP": 6124,
+              "patch_FN": 6582,
+              "patch_TN": 16740,
+              "patch_mixed": 4359
+            },
+            "NeuralTextures": {
+              "frames": 4448,
+              "GT_pixels": 8531437,
+              "predicted": 314257,
+              "precision_hits": 265132,
+              "recall_hits": 765068,
+              "response_sum": 233.57878877827898,
+              "patch_TP": 111757,
+              "patch_FP": 196826,
+              "patch_FN": 264166,
+              "patch_TN": 565939,
+              "patch_mixed": 156761
+            },
+            "real": {
+              "frames": 4416,
+              "GT_pixels": 0,
+              "predicted": 92779,
+              "precision_hits": 0,
+              "recall_hits": 0,
+              "response_sum": 118.42995866341516,
+              "patch_TP": 0,
+              "patch_FP": 299179,
+              "patch_FN": 0,
+              "patch_TN": 831317,
+              "patch_mixed": 0
+            }
+          }
+        },
+        "patch_classifier_supervised": false,
+        "all_epoch_video_AUC": [
+          0.9810438983406847,
+          0.9810964083175804,
+          0.981135790800252,
+          0.9810438983406847,
+          0.9810701533291325,
+          0.9810701533291325,
+          0.9810964083175804,
+          0.9808863684099979,
+          0.9810570258349086,
+          0.9811751732829238
+        ],
+        "reused": false
+      }
+    }
+  },
+  "new_retained_updates": 35950,
+  "costs": {
+    "preflight": {
+      "passed": true,
+      "historical_full_max_errors": {
+        "2027": 0.0
+      },
+      "latest_full_max_errors": {
+        "2027": 0.0
+      },
+      "initialization_sha256": {
+        "2027": {
+          "RGBFull": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+          "UniformPoolFull": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+          "NoPatchClassification": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+          "NoRegionContrast": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+          "NoPatchLearningMatched": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f"
+        }
+      },
+      "shared_initialization_sha256": {
+        "2027": {
+          "RGBFull": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+          "UniformPoolFull": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+          "NoPatchClassification": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+          "NoRegionContrast": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+          "NoPatchLearningMatched": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674"
+        }
+      },
+      "gradient_checks": {
+        "2027": {
+          "RGBFull": {
+            "passed": true,
+            "real_TRAIN_patch_encoder_gradient": true,
+            "real_TRAIN_patch_classifier_gradient": true,
+            "real_TRAIN_contrast_encoder_gradient": true,
+            "semantic_gradient": false,
+            "invalid_mask_invariant": true,
+            "nonTRAIN_supervision_rejected": true,
+            "declared_variant": {
+              "input": "RGB",
+              "pooling": "predicted_boundary_cells_quarter_floor",
+              "boundary_coefficient": 0.2,
+              "patch_classification": 0.2,
+              "patch_contrast": 0.1,
+              "temperature": 0.5
+            },
+            "total_patch_gradient_enabled": true,
+            "disposable_updates": 2,
+            "allocated_parameters": 118722
+          },
+          "UniformPoolFull": {
+            "passed": true,
+            "real_TRAIN_patch_encoder_gradient": true,
+            "real_TRAIN_patch_classifier_gradient": true,
+            "real_TRAIN_contrast_encoder_gradient": true,
+            "semantic_gradient": false,
+            "invalid_mask_invariant": true,
+            "nonTRAIN_supervision_rejected": true,
+            "declared_variant": {
+              "input": "signed_RGB_minus_Gaussian5_sigma1",
+              "pooling": "uniform",
+              "boundary_coefficient": 0.2,
+              "patch_classification": 0.2,
+              "patch_contrast": 0.1,
+              "temperature": 0.5
+            },
+            "total_patch_gradient_enabled": true,
+            "disposable_updates": 2,
+            "allocated_parameters": 118722
+          },
+          "NoPatchClassification": {
+            "passed": true,
+            "real_TRAIN_patch_encoder_gradient": true,
+            "real_TRAIN_patch_classifier_gradient": true,
+            "real_TRAIN_contrast_encoder_gradient": true,
+            "semantic_gradient": false,
+            "invalid_mask_invariant": true,
+            "nonTRAIN_supervision_rejected": true,
+            "declared_variant": {
+              "input": "signed_RGB_minus_Gaussian5_sigma1",
+              "pooling": "predicted_boundary_cells_quarter_floor",
+              "boundary_coefficient": 0.2,
+              "patch_classification": 0.0,
+              "patch_contrast": 0.1,
+              "temperature": 0.5
+            },
+            "total_patch_gradient_enabled": false,
+            "disposable_updates": 2,
+            "allocated_parameters": 118722
+          },
+          "NoRegionContrast": {
+            "passed": true,
+            "real_TRAIN_patch_encoder_gradient": true,
+            "real_TRAIN_patch_classifier_gradient": true,
+            "real_TRAIN_contrast_encoder_gradient": true,
+            "semantic_gradient": false,
+            "invalid_mask_invariant": true,
+            "nonTRAIN_supervision_rejected": true,
+            "declared_variant": {
+              "input": "signed_RGB_minus_Gaussian5_sigma1",
+              "pooling": "predicted_boundary_cells_quarter_floor",
+              "boundary_coefficient": 0.2,
+              "patch_classification": 0.2,
+              "patch_contrast": 0.0,
+              "temperature": 0.5
+            },
+            "total_patch_gradient_enabled": true,
+            "disposable_updates": 2,
+            "allocated_parameters": 118722
+          },
+          "NoPatchLearningMatched": {
+            "passed": true,
+            "real_TRAIN_patch_encoder_gradient": true,
+            "real_TRAIN_patch_classifier_gradient": true,
+            "real_TRAIN_contrast_encoder_gradient": true,
+            "semantic_gradient": false,
+            "invalid_mask_invariant": true,
+            "nonTRAIN_supervision_rejected": true,
+            "declared_variant": {
+              "input": "signed_RGB_minus_Gaussian5_sigma1",
+              "pooling": "predicted_boundary_cells_quarter_floor",
+              "boundary_coefficient": 0.2,
+              "patch_classification": 0.0,
+              "patch_contrast": 0.0,
+              "temperature": 0.5
+            },
+            "total_patch_gradient_enabled": false,
+            "disposable_updates": 2,
+            "allocated_parameters": 118722
+          }
+        }
+      },
+      "real_TRAIN_fixture_indices": [
+        0,
+        8
+      ],
+      "real_TRAIN_fixture_identities": [
+        [
+          "ffpp:real:071",
+          0
+        ],
+        [
+          "ffpp:Deepfakes:071_054",
+          0
+        ]
+      ],
+      "disposable_optimizer_updates": 10,
+      "new_retained_updates": 0,
+      "preflight_frame_forwards": 168,
+      "new_semantic_execution": false,
+      "time": "2026-11-05T05:32:03.839403+00:00",
+      "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+      "seconds": 67.85471069812775,
+      "network_frame_forwards": {
+        "historical_full_replay": 64,
+        "latest_full_replay": 64,
+        "synthetic_zero_head": 10,
+        "real_TRAIN_gradient": 10,
+        "disposable_synthetic": 20
+      },
+      "resources": {
+        "memory_cap": 26843545600,
+        "memory_used": 7804100608,
+        "disk_free": 16486277120
+      }
+    },
+    "source": {
+      "passed": true,
+      "new_retained_updates": 35950,
+      "disposable_optimizer_updates": 0,
+      "new_semantic_execution": false,
+      "selection_lock_sha256": "3bc8152210d5e205b3e0b9b0b55657821aff3d0230f4893fde95edf5ed2dde2a",
+      "target_results_for_selection": false,
+      "time": "2026-11-05T08:01:08.025607+00:00",
+      "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+      "seconds": 8870.612034078687,
+      "network_frame_forwards": {
+        "retained_training": 575200,
+        "full_source_VAL": 1104000,
+        "selected_reload": 320,
+        "selected_localization": 110400
+      },
+      "resources": {
+        "memory_cap": 26843545600,
+        "memory_used": 11081478144,
+        "disk_free": 16294170624
+      }
+    }
+  },
+  "adaptive_exploration": true,
+  "old_tasks_paused": true,
+  "automation_paused": true,
+  "target_pending": true
+}

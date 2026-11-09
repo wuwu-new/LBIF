@@ -1,0 +1,23 @@
+{
+  "cdf1": {
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/cdf1_FRAMES.jsonl"
+  },
+  "cdf2": {
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/cdf2_FRAMES.jsonl"
+  },
+  "dfd": {
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfd_FRAMES.jsonl"
+  },
+  "dfdc": {
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfdc_FRAMES.jsonl"
+  },
+  "dfdcp": {
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/dfdcp_FRAMES.jsonl"
+  },
+  "wild": {
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/wild_FRAMES.jsonl"
+  },
+  "uadfv": {
+    "baseline_frames": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_03_sequence_target_20261102/evaluation/uadfv_FRAMES.jsonl"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "trials": [
+    {
+      "parallel": false,
+      "seconds": 2.105324625968933,
+      "frames": 256,
+      "model_forwards": 1280
+    },
+    {
+      "parallel": true,
+      "seconds": 1.0861301198601723,
+      "frames": 256,
+      "model_forwards": 1280
+    },
+    {
+      "parallel": true,
+      "seconds": 1.0702903345227242,
+      "frames": 256,
+      "model_forwards": 1280
+    },
+    {
+      "parallel": false,
+      "seconds": 2.049566011875868,
+      "frames": 256,
+      "model_forwards": 1280
+    }
+  ],
+  "speedup": 1.9267534906748078,
+  "enable_prefetch": true,
+  "max_output_error": 0.0,
+  "extra_frame_forwards": 5120,
+  "new_optimizer_updates": 0,
+  "source_registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+  "selection_lock_sha256": "3bc8152210d5e205b3e0b9b0b55657821aff3d0230f4893fde95edf5ed2dde2a"
+}

@@ -1,0 +1,42 @@
+{
+  "time": "2026-11-03T16:53:35.916703+00:00",
+  "passed": true,
+  "registration_sha256": "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98",
+  "models_cuda_only": true,
+  "owned_nvml_pid": 88399,
+  "old2027_model_tensor_sha256": "7ee1e653cc4e2d8c6d9ceecb0edf93e80745de0e2fb918d4e1c8b41a5fd12085",
+  "source_logit_max_error": 0.0,
+  "fresh_cache_max_error": 0.0,
+  "source_predict_frame_forwards": 192,
+  "source_encoding_probe_frames": 32,
+  "initialization_sha256": {
+    "3407": "52e2b600878f53af3b3b348c0bd4c820779dc4adf0f7861a4f14abfafcf87892",
+    "4099": "2fac04db2b01a39ed020033bb38f7ca8071160435ae081c5f48b324b6d06cc8f"
+  },
+  "fixed_token_input_sha256": {
+    "3407": "e50482d67e4a48aea263c3350a2e63f452c997df50f24ff70ab420f652a95d4e",
+    "4099": "e50482d67e4a48aea263c3350a2e63f452c997df50f24ff70ab420f652a95d4e"
+  },
+  "disposable_updates": 4,
+  "fixture_steps": {
+    "3407": 2,
+    "4099": 2
+  },
+  "fixture_loss": {
+    "3407": [
+      0.07487979531288147,
+      0.045122116804122925
+    ],
+    "4099": [
+      0.11760737746953964,
+      0.05511052906513214
+    ]
+  },
+  "source_TEST": false,
+  "target_access": false,
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7575969792,
+    "disk_free": 20830965760
+  }
+}

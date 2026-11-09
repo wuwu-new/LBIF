@@ -1,0 +1,164 @@
+{
+  "passed": true,
+  "historical_full_max_errors": {
+    "2027": 0.0
+  },
+  "latest_full_max_errors": {
+    "2027": 0.0
+  },
+  "initialization_sha256": {
+    "2027": {
+      "RGBFull": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+      "UniformPoolFull": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+      "NoPatchClassification": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+      "NoRegionContrast": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+      "NoPatchLearningMatched": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f"
+    }
+  },
+  "shared_initialization_sha256": {
+    "2027": {
+      "RGBFull": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+      "UniformPoolFull": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+      "NoPatchClassification": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+      "NoRegionContrast": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+      "NoPatchLearningMatched": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674"
+    }
+  },
+  "gradient_checks": {
+    "2027": {
+      "RGBFull": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "RGB",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "UniformPoolFull": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "uniform",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoPatchClassification": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.0,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": false,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoRegionContrast": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.0,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoPatchLearningMatched": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.0,
+          "patch_contrast": 0.0,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": false,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      }
+    }
+  },
+  "real_TRAIN_fixture_indices": [
+    0,
+    8
+  ],
+  "real_TRAIN_fixture_identities": [
+    [
+      "ffpp:real:071",
+      0
+    ],
+    [
+      "ffpp:Deepfakes:071_054",
+      0
+    ]
+  ],
+  "disposable_optimizer_updates": 10,
+  "new_retained_updates": 0,
+  "preflight_frame_forwards": 168,
+  "new_semantic_execution": false,
+  "time": "2026-11-05T05:32:03.839403+00:00",
+  "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+  "seconds": 67.85471069812775,
+  "network_frame_forwards": {
+    "historical_full_replay": 64,
+    "latest_full_replay": 64,
+    "synthetic_zero_head": 10,
+    "real_TRAIN_gradient": 10,
+    "disposable_synthetic": 20
+  },
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7804100608,
+    "disk_free": 16486277120
+  }
+}

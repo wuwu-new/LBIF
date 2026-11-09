@@ -1,0 +1,29 @@
+{
+  "/root/miniconda3/lib/python3.10/site-packages/torch/__init__.py": {
+    "sha256": "9025979d060e6b0abd391a8f83ee5c2ce9ccc2801ba31948f0f41c82ac072730",
+    "distribution": "torch",
+    "version": "2.3.0+cu118"
+  },
+  "/root/miniconda3/lib/python3.10/site-packages/numpy/__init__.py": {
+    "sha256": "22cd1535fa14d74ef6f457cca149ffdc80875f460be313b8f895273f78bc402e",
+    "distribution": "numpy",
+    "version": "1.26.4"
+  },
+  "/root/miniconda3/lib/python3.10/site-packages/PIL/__init__.py": {
+    "sha256": "7c95303c6848f3f99c07c8cd583fa1530ecc88c2725a0a955ff9c5b73223d59b",
+    "distribution": "Pillow",
+    "version": "10.3.0"
+  },
+  "/root/miniconda3/lib/python3.10/site-packages/torch/nn/functional.py": {
+    "sha256": "16c5a5bbc95e33fd2b2161799e94083b515927d90372c0967d80ead5073edca3"
+  },
+  "/root/miniconda3/lib/python3.10/site-packages/torch/optim/adamw.py": {
+    "sha256": "c1305df0980f6707d526898467681e7857e21e2cf93e4ca2f9e863f2fe7087b2"
+  },
+  "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/conv.py": {
+    "sha256": "2deae689a64b98de2750401fabd12da279c1dd9bbc96ed9aec3c439469d04fa8"
+  },
+  "/root/miniconda3/lib/python3.10/site-packages/torch/nn/modules/normalization.py": {
+    "sha256": "91bc65019c5e2020d5a82d2d44e330d23ae84a48b9841a30518f7edcb4f02dbb"
+  }
+}

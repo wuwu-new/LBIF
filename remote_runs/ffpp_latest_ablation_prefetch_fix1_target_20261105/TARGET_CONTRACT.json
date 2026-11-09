@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "source_errors": {
+    "2027/RGBFull": 0.0,
+    "2027/UniformPoolFull": 0.0,
+    "2027/NoPatchClassification": 0.0,
+    "2027/NoRegionContrast": 0.0,
+    "2027/NoPatchLearningMatched": 0.0
+  },
+  "target_repeat_errors": {
+    "cdf1": {
+      "2027/RGBFull": 0.0,
+      "2027/UniformPoolFull": 0.0,
+      "2027/NoPatchClassification": 0.0,
+      "2027/NoRegionContrast": 0.0,
+      "2027/NoPatchLearningMatched": 0.0
+    },
+    "cdf2": {
+      "2027/RGBFull": 0.0,
+      "2027/UniformPoolFull": 0.0,
+      "2027/NoPatchClassification": 0.0,
+      "2027/NoRegionContrast": 0.0,
+      "2027/NoPatchLearningMatched": 0.0
+    },
+    "dfd": {
+      "2027/RGBFull": 0.0,
+      "2027/UniformPoolFull": 0.0,
+      "2027/NoPatchClassification": 0.0,
+      "2027/NoRegionContrast": 0.0,
+      "2027/NoPatchLearningMatched": 0.0
+    },
+    "dfdc": {
+      "2027/RGBFull": 0.0,
+      "2027/UniformPoolFull": 0.0,
+      "2027/NoPatchClassification": 0.0,
+      "2027/NoRegionContrast": 0.0,
+      "2027/NoPatchLearningMatched": 0.0
+    },
+    "dfdcp": {
+      "2027/RGBFull": 0.0,
+      "2027/UniformPoolFull": 0.0,
+      "2027/NoPatchClassification": 0.0,
+      "2027/NoRegionContrast": 0.0,
+      "2027/NoPatchLearningMatched": 0.0
+    },
+    "wild": {
+      "2027/RGBFull": 0.0,
+      "2027/UniformPoolFull": 0.0,
+      "2027/NoPatchClassification": 0.0,
+      "2027/NoRegionContrast": 0.0,
+      "2027/NoPatchLearningMatched": 0.0
+    },
+    "uadfv": {
+      "2027/RGBFull": 0.0,
+      "2027/UniformPoolFull": 0.0,
+      "2027/NoPatchClassification": 0.0,
+      "2027/NoRegionContrast": 0.0,
+      "2027/NoPatchLearningMatched": 0.0
+    }
+  },
+  "preflight_forwards": 1440,
+  "new_optimizer_updates": 0
+}

@@ -1,0 +1,15 @@
+{
+  "source_run": "ffpp_patch_region_full_20261105",
+  "source_registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+  "sidecar_registration_sha256": "707ee19e106a00bb5ef6d9e8c5b2c50f64d42402ef61ef96a482def6ebb0beb8",
+  "files": {
+    "SOURCE_COMPLETE.json": "6f3d097557719c2f0a921eb99206c746011f20da2ebbd3d94d37a5f18a423ea9",
+    "SOURCE_LAUNCH.json": "bb3c02bb7d542176aacb189dbd636ecf51ea301e9c1b43f045865daf412b13d5",
+    "SELECTED_ENDPOINT_LOCK.json": "0dfd9b522b475d0f15b3c1e0cb2ad330e2a20c3f11c5620da1e69b4758bf6c18",
+    "SOURCE_LOCAL_VERIFICATION.json": "a39b688c71b7f0e0304bffa5250f51f8b0e249468e0205a4f79c13a8968e8644"
+  },
+  "selection_lock_sha256": "0dfd9b522b475d0f15b3c1e0cb2ad330e2a20c3f11c5620da1e69b4758bf6c18",
+  "original_source_archive_verification_sha256": "27f0e36c09e157763559ee662162f006e94d12e4b42e30ac2c6e2ba0b82d649e",
+  "source_exited": true,
+  "new_training": false
+}

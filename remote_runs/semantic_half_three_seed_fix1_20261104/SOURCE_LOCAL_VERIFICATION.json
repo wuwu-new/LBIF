@@ -1,0 +1,36 @@
+{
+  "time": "2026-11-03T17:33:41.049938+00:00",
+  "passed": true,
+  "registration_sha256": "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98",
+  "source_report_sha256": "75930175d03e1ab00b505d179f836bf1534c347e908f9df52d1a51d4178c57b6",
+  "scope": "independent all22 new source epochs plus old2027 saved-frame/mean32/bisect AUC, materialized family bootstrap, checkpoint/cache/gradient/budget receipts",
+  "source_val_frames": 22080,
+  "source_val_videos": 690,
+  "new_retained_updates": 14380,
+  "actual_neural_replay": false,
+  "all3": {
+    "Semantic": {
+      "mean": 0.9804137786179374,
+      "sample_SD": 0.00016396235030453663,
+      "n": 3
+    },
+    "SemanticHalf": {
+      "mean": 0.9813939648533222,
+      "sample_SD": 0.00043821717700742247,
+      "n": 3
+    }
+  },
+  "new2": {
+    "Semantic": {
+      "mean": 0.98032188615837,
+      "sample_SD": 5.56952411142594e-05,
+      "n": 2
+    },
+    "SemanticHalf": {
+      "mean": 0.981542743121193,
+      "sample_SD": 0.0005012571700282561,
+      "n": 2
+    }
+  },
+  "seconds": 6.860000000000582
+}

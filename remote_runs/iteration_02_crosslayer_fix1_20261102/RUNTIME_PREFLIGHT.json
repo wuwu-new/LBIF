@@ -1,0 +1,65 @@
+{
+  "time": "2026-11-02T13:01:48.366939+08:00",
+  "passed": true,
+  "registration_sha256": "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f",
+  "models_cuda_only": true,
+  "owned_nvml_pid": 426096,
+  "container_pid": 350921,
+  "owned_guard_bound_and_checked": true,
+  "original_failed_preflight_preserved": true,
+  "final_layer_and_complete_semantic_exact": true,
+  "original_compact_probe_views": [
+    "clean",
+    "augmented",
+    "source_VAL"
+  ],
+  "full_arm_initialization_equal": true,
+  "common_tensor_sha256": {
+    "LastLayerResidual": "b567d2adad2da1083e674d402339adeaa5e783747620e9cf09a97582b46f4bc3",
+    "CrossLayerResidual": "b567d2adad2da1083e674d402339adeaa5e783747620e9cf09a97582b46f4bc3",
+    "CrossLayerNoImage": "b567d2adad2da1083e674d402339adeaa5e783747620e9cf09a97582b46f4bc3"
+  },
+  "model_initialization_sha256": {
+    "LastLayerResidual": "4bc43b386b0be692714142aa412d7ad9019a1cae5b7fba9d08da6ebe973bf781",
+    "CrossLayerResidual": "4bc43b386b0be692714142aa412d7ad9019a1cae5b7fba9d08da6ebe973bf781",
+    "CrossLayerNoImage": "afe22bc238c102244c1877184c79784d87c9c7c2131142a49e22ca956ec05089"
+  },
+  "parameters": {
+    "LastLayerResidual": 448546,
+    "CrossLayerResidual": 448546,
+    "CrossLayerNoImage": 450818
+  },
+  "route_and_image_audits": {
+    "LastLayerResidual": {
+      "intermediate_readout_sensitivity": 0.0,
+      "image_auxiliary_gradient_l1": 1277.912841796875,
+      "image_independent": false,
+      "optimizer_updates": 0
+    },
+    "CrossLayerResidual": {
+      "intermediate_readout_sensitivity": 1.8021295070648193,
+      "image_auxiliary_gradient_l1": 1277.912841796875,
+      "image_independent": false,
+      "optimizer_updates": 0
+    },
+    "CrossLayerNoImage": {
+      "intermediate_readout_sensitivity": 1.8021295070648193,
+      "image_auxiliary_gradient_l1": 0.0,
+      "image_independent": true,
+      "optimizer_updates": 0
+    }
+  },
+  "optimizer_updates": 0,
+  "original_independent_replay_passed": false,
+  "shared_training_prefix": false,
+  "resources": {
+    "cap": 26843545600,
+    "used": 5212741632,
+    "cache": 2385391616,
+    "rss": 975421440,
+    "inactive_file": 1609961472,
+    "active_file": 755286016,
+    "disk_free": 28859006976,
+    "additional_memory": 0
+  }
+}

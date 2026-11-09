@@ -1,0 +1,147 @@
+{
+  "primary_endpoint": {
+    "epoch": 10,
+    "g": 1
+  },
+  "secondary_selections": {
+    "LastLayerResidual": {
+      "arm": "LastLayerResidual",
+      "epoch": 10,
+      "seed": 2027,
+      "updates": 719,
+      "optimizer_steps": 7190,
+      "video_auc": 0.9750315059861374,
+      "checkpoint": "epoch_10.pt",
+      "checkpoint_sha256": "2f80b43b5aaadc8f7e5a96c1ba745617ad4e2a41dee7c63a5f324883e029e0e3",
+      "model_tensor_sha256": "41e63642bef3b7d64de0fac755d458a259df0c2deaca5a813568039a0c8973af",
+      "video_scores": "epoch_10_VIDEOS.json",
+      "video_scores_sha256": "1cf33d36e543ef070bbf509cd2b2c4b029def1926bc3c906f3bbb6af17af01aa",
+      "slot_sampling_sha256": "e494b7c69afdbbb0c70104b8ba852d4e06a15738d24b4bd5989a1171d83abbd0",
+      "mapping_sha256": "3ae09df78a5985366aa88df4e2dfc99a0a511505fb64976002a9b353da482723",
+      "gradient_audits": [
+        {
+          "step": 0,
+          "gradients": {
+            "adapter": 0.06903515011072159,
+            "correction": 0.21989867091178894,
+            "readout": 0.08673269301652908
+          },
+          "semantic_frozen": true
+        },
+        {
+          "step": 350,
+          "gradients": {
+            "adapter": 0.01811533235013485,
+            "correction": 0.08147510141134262,
+            "readout": 0.0168303269892931
+          },
+          "semantic_frozen": true
+        },
+        {
+          "step": 718,
+          "gradients": {
+            "adapter": 0.04405244439840317,
+            "correction": 0.017051557078957558,
+            "readout": 0.027600739151239395
+          },
+          "semantic_frozen": true
+        }
+      ],
+      "loss_mean": 0.15338243825959563,
+      "seconds": 186.91663339361548
+    },
+    "CrossLayerResidual": {
+      "arm": "CrossLayerResidual",
+      "epoch": 10,
+      "seed": 2027,
+      "updates": 719,
+      "optimizer_steps": 7190,
+      "video_auc": 0.9757403906742281,
+      "checkpoint": "epoch_10.pt",
+      "checkpoint_sha256": "4ec625cc96374585679048673573b76f153bb0618e3c053746cf1f301127e486",
+      "model_tensor_sha256": "4fe11e4f42ee5696398214430ddebdb2b5f4b985074370668d6fb3338d023ee8",
+      "video_scores": "epoch_10_VIDEOS.json",
+      "video_scores_sha256": "fdfa18a5b326edd90196e7d0aa5e469e9de4e7d374518acd6d4e6bea7d43d818",
+      "slot_sampling_sha256": "e494b7c69afdbbb0c70104b8ba852d4e06a15738d24b4bd5989a1171d83abbd0",
+      "mapping_sha256": "3ae09df78a5985366aa88df4e2dfc99a0a511505fb64976002a9b353da482723",
+      "gradient_audits": [
+        {
+          "step": 0,
+          "gradients": {
+            "adapter": 0.08671433478593826,
+            "correction": 0.25915947556495667,
+            "readout": 0.3831157386302948
+          },
+          "semantic_frozen": true
+        },
+        {
+          "step": 350,
+          "gradients": {
+            "adapter": 0.015714049339294434,
+            "correction": 0.09074640274047852,
+            "readout": 0.06754086166620255
+          },
+          "semantic_frozen": true
+        },
+        {
+          "step": 718,
+          "gradients": {
+            "adapter": 0.1156018003821373,
+            "correction": 0.06945335119962692,
+            "readout": 0.23781651258468628
+          },
+          "semantic_frozen": true
+        }
+      ],
+      "loss_mean": 0.13912680610413344,
+      "seconds": 187.3525155223906
+    },
+    "CrossLayerNoImage": {
+      "arm": "CrossLayerNoImage",
+      "epoch": 10,
+      "seed": 2027,
+      "updates": 719,
+      "optimizer_steps": 7190,
+      "video_auc": 0.9805975635370721,
+      "checkpoint": "epoch_10.pt",
+      "checkpoint_sha256": "860efe969042c218b807f3277966c27bca537e651bac127df612ab6d52331eae",
+      "model_tensor_sha256": "7ee1e653cc4e2d8c6d9ceecb0edf93e80745de0e2fb918d4e1c8b41a5fd12085",
+      "video_scores": "epoch_10_VIDEOS.json",
+      "video_scores_sha256": "5b7cab63f5330ea5031d29a58a8619bf22271ab9576bb10a95a77e8994f97322",
+      "slot_sampling_sha256": "e494b7c69afdbbb0c70104b8ba852d4e06a15738d24b4bd5989a1171d83abbd0",
+      "mapping_sha256": "3ae09df78a5985366aa88df4e2dfc99a0a511505fb64976002a9b353da482723",
+      "gradient_audits": [
+        {
+          "step": 0,
+          "gradients": {
+            "adapter": 0.10893182456493378,
+            "correction": 0.13678902387619019,
+            "readout": 0.8995919227600098
+          },
+          "semantic_frozen": true
+        },
+        {
+          "step": 350,
+          "gradients": {
+            "adapter": 0.10017628967761993,
+            "correction": 0.17373032867908478,
+            "readout": 0.823915958404541
+          },
+          "semantic_frozen": true
+        },
+        {
+          "step": 718,
+          "gradients": {
+            "adapter": 0.0062094214372336864,
+            "correction": 0.010702739469707012,
+            "readout": 0.04594126343727112
+          },
+          "semantic_frozen": true
+        }
+      ],
+      "loss_mean": 0.08394544321256113,
+      "seconds": 84.52205315977335
+    }
+  },
+  "target_selection": false
+}

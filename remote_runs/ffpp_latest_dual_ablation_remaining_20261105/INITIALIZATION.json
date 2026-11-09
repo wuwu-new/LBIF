@@ -1,0 +1,16 @@
+{
+  "3407": {
+    "RGBFull": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+    "UniformPoolFull": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+    "NoPatchClassification": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+    "NoRegionContrast": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+    "NoPatchLearningMatched": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5"
+  },
+  "4099": {
+    "RGBFull": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+    "UniformPoolFull": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+    "NoPatchClassification": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+    "NoRegionContrast": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+    "NoPatchLearningMatched": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2"
+  }
+}

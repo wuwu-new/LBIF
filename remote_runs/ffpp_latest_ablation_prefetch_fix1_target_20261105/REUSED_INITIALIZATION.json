@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "source_checkpoint_logit_max_error": 0.0,
+  "paired_resume_step_model_max_error": 7.450580596923828e-09,
+  "loaded_optimizer_exact": true,
+  "paired_optimizer_max_abs_error": 5.820766091346741e-10,
+  "initialization_sha256": {
+    "2027": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674",
+    "3407": "a11100d7bb545ca8d07af2d8ad61c399d07912e641ac75c075e3d7c00cfa4c9e",
+    "4099": "f3d3f2b2c36739379f426d67533213957b1661c1cf0cbf9fbb453c462b5f0e7b"
+  },
+  "gradient_checks": {
+    "2027": {
+      "base_gradient": false,
+      "classification_decoder_gradient": false,
+      "encoder_head_active": true,
+      "aux_decoder_active": true,
+      "invalid_mask_invariant": true
+    },
+    "3407": {
+      "base_gradient": false,
+      "classification_decoder_gradient": false,
+      "encoder_head_active": true,
+      "aux_decoder_active": true,
+      "invalid_mask_invariant": true
+    },
+    "4099": {
+      "base_gradient": false,
+      "classification_decoder_gradient": false,
+      "encoder_head_active": true,
+      "aux_decoder_active": true,
+      "invalid_mask_invariant": true
+    }
+  },
+  "disposable_optimizer_updates": 8,
+  "resume_disposable_updates": 2,
+  "synthetic_disposable_updates": 6,
+  "preserved_original_prefix_identity": true
+}

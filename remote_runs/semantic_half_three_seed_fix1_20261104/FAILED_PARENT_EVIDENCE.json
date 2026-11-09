@@ -1,0 +1,46 @@
+{
+  "time": "2026-11-03T16:51:05.583110+00:00",
+  "failed_parent_registration_sha256": "288ffb457b4e0b607cc66166ba845cb491f62bf1ec99cd11362f682f172a53b4",
+  "failure": {
+    "time": "2026-11-03T16:46:37.796786+00:00",
+    "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/run_source_cuda.py\", line 176, in <module>\n    try:run_source(args.run.resolve(),args.preflight_only)\n  File \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/run_source_cuda.py\", line 42, in run_source\n    started=time.monotonic();config=read(run/'V5_CONFIG.json');encoder=build_encoder()\n  File \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/common_cuda.py\", line 78, in encoder\n    tensors=load_file(str(Path(config['clip_path'])/'model.safetensors'),device='cuda')\n  File \"/root/miniconda3/lib/python3.10/site-packages/safetensors/torch.py\", line 360, in load_file\n    return f.get_tensors()\nRuntimeError: CUDA error: invalid argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n\n"
+  },
+  "files": {
+    "SOURCE_PREFLIGHT_FAILURE.json": {
+      "sha256": "b2d764ee476c3eec6ffbd80f78062a946e87de33da75cf8f3c84dc5d690fc1a4",
+      "text": "{\n  \"time\": \"2026-11-03T16:46:37.796786+00:00\",\n  \"traceback\": \"Traceback (most recent call last):\\n  File \\\"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/run_source_cuda.py\\\", line 176, in <module>\\n    try:run_source(args.run.resolve(),args.preflight_only)\\n  File \\\"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/run_source_cuda.py\\\", line 42, in run_source\\n    started=time.monotonic();config=read(run/'V5_CONFIG.json');encoder=build_encoder()\\n  File \\\"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/common_cuda.py\\\", line 78, in encoder\\n    tensors=load_file(str(Path(config['clip_path'])/'model.safetensors'),device='cuda')\\n  File \\\"/root/miniconda3/lib/python3.10/site-packages/safetensors/torch.py\\\", line 360, in load_file\\n    return f.get_tensors()\\nRuntimeError: CUDA error: invalid argument\\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\\n\\n\"\n}"
+    },
+    "SOURCE_PREFLIGHT_LAUNCH.json": {
+      "sha256": "94f6f201a50f0f9453f4325208c7a9d9dabc1f0737fbd6878ccd279418c2c824",
+      "text": "{\"time\": \"2026-11-03T16:45:26.764298+00:00\", \"pid\": 470919, \"command\": [\"/root/miniconda3/bin/python\", \"-u\", \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/run_source_cuda.py\", \"--run\", \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104\", \"--preflight-only\"], \"registration_sha256\": \"288ffb457b4e0b607cc66166ba845cb491f62bf1ec99cd11362f682f172a53b4\"}"
+    },
+    "SOURCE_PREFLIGHT_STARTED.json": {
+      "sha256": "c5c44376a37b4d4e869f12e0e5ef0f0aa17a7c8dc0cd92363e4fa940fbda14bf",
+      "text": "{\n  \"time\": \"2026-11-03T16:46:32.636206+00:00\",\n  \"registration_sha256\": \"288ffb457b4e0b607cc66166ba845cb491f62bf1ec99cd11362f682f172a53b4\"\n}"
+    },
+    "SOURCE_PREFLIGHT_CUDA_OWNER.json": {
+      "sha256": "a534e3b277d3f1dde22a483ccbd60a0788b28ce91543d260457992ae069ba911",
+      "text": "{\n  \"container_pid\": 470919,\n  \"nvml_owned_context_pid\": 81091,\n  \"pid_namespaces_differ\": true,\n  \"binding\": \"empty before context under project lease; exactly one after owned CUDA initialization\"\n}"
+    },
+    "SOURCE_PREFLIGHT.log": {
+      "sha256": "49dce516eb0b0dba434163bf36e44c8356e763e7b84b38509e3ea66a05a587bb",
+      "text": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/run_source_cuda.py\", line 176, in <module>\n    try:run_source(args.run.resolve(),args.preflight_only)\n  File \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/run_source_cuda.py\", line 42, in run_source\n    started=time.monotonic();config=read(run/'V5_CONFIG.json');encoder=build_encoder()\n  File \"/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_20261104/implementation/common_cuda.py\", line 78, in encoder\n    tensors=load_file(str(Path(config['clip_path'])/'model.safetensors'),device='cuda')\n  File \"/root/miniconda3/lib/python3.10/site-packages/safetensors/torch.py\", line 360, in load_file\n    return f.get_tensors()\nRuntimeError: CUDA error: invalid argument\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n\n"
+    }
+  },
+  "source_preflight_exited": true,
+  "GPU": "",
+  "models_frame_forwards": 0,
+  "disposable_updates": 0,
+  "retained_updates": 0,
+  "evidence_basis": "traceback before encoder construction completed and before any model forward/optimizer; no fixtures/train launch",
+  "safetensors_version": "0.8.0",
+  "loader_dependencies_sha256": {
+    "/root/miniconda3/lib/python3.10/site-packages/safetensors/torch.py": "f3f476d1f8c04fe65fa3797426556a0b7afa43f8c4db9db6b799c7cf84748f3d",
+    "/root/miniconda3/lib/python3.10/site-packages/safetensors/__init__.py": "92c988289b8c225a92f25e487ad5d7a1eb7e326eec0fedfc6b75e6f04d85e32f",
+    "/root/miniconda3/lib/python3.10/site-packages/safetensors/_safetensors_rust.abi3.so": "e6f17a9e9846bc2bc4ad94cc5431746b59785de3d2681ef2666e8890ae192dfb",
+    "/root/miniconda3/lib/python3.10/site-packages/transformers/modeling_utils.py": "118bd75838e78b19a55accddcf0a913386d822e812c215d50da99c3d0e91d3da"
+  },
+  "disk_free": 20924710912,
+  "memory_used": 4888002560,
+  "memory_cap": 26843545600
+}

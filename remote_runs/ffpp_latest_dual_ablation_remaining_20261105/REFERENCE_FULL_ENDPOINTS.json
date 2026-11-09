@@ -1,0 +1,101 @@
+{
+  "2027": {
+    "PatchClassificationContrast": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/source/2027/PatchClassificationContrast/epoch_10.pt",
+      "sha256": "c0756ea3bd58feb1846dd588fee901e993b7a8133c92fe45047218ec96d27dbd",
+      "model_sha256": "fc1b9e9ce5cbacc80826630ddc1ec213c7fa080c33729f4661319c1ad77fdfe7",
+      "seed": 2027,
+      "arm": "PatchClassificationContrast",
+      "epoch": 10,
+      "updates": 7190,
+      "registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9638437272320022,
+        "video_AUC": 0.9814639781558496,
+        "auc_fraction": [
+          18691,
+          19044
+        ],
+        "BCE": 0.21950522004795958,
+        "FP": 17,
+        "FN": 25
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/source/2027/PatchClassificationContrast/evaluation_10/FRAMES.csv",
+      "frames_sha256": "9defb56963fbd87b31c248a875e47cc75a090d3ba6adda0e232b518b24bba02e",
+      "videos_sha256": "27ada4721a286cffe8bec57d5baf090163153aa5164777c970564a1ab0169d1e"
+    }
+  },
+  "3407": {
+    "PatchClassificationContrast": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/source/3407/PatchClassificationContrast/epoch_09.pt",
+      "sha256": "6657b13c655a371e0181eb324c47289e869b307aca8c758bc7b5f4e7c5ba5374",
+      "model_sha256": "f182f0ccb7c8165680abc1c1260102a418cafe4de6dbeb1474c971dcd3ec7848",
+      "seed": 3407,
+      "arm": "PatchClassificationContrast",
+      "epoch": 9,
+      "updates": 6471,
+      "registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9640020071220758,
+        "video_AUC": 0.9813589582020584,
+        "auc_fraction": [
+          18689,
+          19044
+        ],
+        "BCE": 0.23291733466766518,
+        "FP": 13,
+        "FN": 36
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/source/3407/PatchClassificationContrast/evaluation_09/FRAMES.csv",
+      "frames_sha256": "f88335147be1caecf33aea3b303db9a598c8a4c53ad986c5d2341f0b52c71462",
+      "videos_sha256": "4d4f6d72d5b7f108eda065ddc5e960d4c7906258a0d06903b63e4b93d195b3bf"
+    }
+  },
+  "4099": {
+    "PatchClassificationContrast": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/source/4099/PatchClassificationContrast/epoch_10.pt",
+      "sha256": "2afa74ae8a6a6ad65e3176e2a21e8650fe40acbedb5beffdf4b69f7c903e99c6",
+      "model_sha256": "c9fa10b5f6594094519a90942e761663e3a2277a50f211578a6f6a3168407d4b",
+      "seed": 4099,
+      "arm": "PatchClassificationContrast",
+      "epoch": 10,
+      "updates": 7190,
+      "registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9654616460257331,
+        "video_AUC": 0.9821334803612687,
+        "auc_fraction": [
+          74815,
+          76176
+        ],
+        "BCE": 0.24355786201164198,
+        "FP": 11,
+        "FN": 40
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/source/4099/PatchClassificationContrast/evaluation_10/FRAMES.csv",
+      "frames_sha256": "a06ac99da3901eba912d841da240d5272727ed333f35fdef371f8a7d42787c46",
+      "videos_sha256": "bb2dbe237391729eef58c5f357cdc3051c61c8883914a92afb692a8bd0eb480c"
+    }
+  }
+}

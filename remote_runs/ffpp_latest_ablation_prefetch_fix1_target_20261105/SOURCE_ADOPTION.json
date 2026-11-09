@@ -1,0 +1,15 @@
+{
+  "source_run": "ffpp_latest_dual_ablation_seed2027_20261105",
+  "source_registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+  "sidecar_registration_sha256": "2ad2d761c09daac13009e3be3bdc4457c08f16739ec5b610a484c2d906f187da",
+  "files": {
+    "SOURCE_COMPLETE.json": "3922586546e3246abcc6481155e4a2f25b011c3be4bb25a6cd58403592c4baea",
+    "SOURCE_LAUNCH.json": "6a2019e28379a00ca7bdb04b3a06f8ea72a914547b5f13fd6e961ec46826228b",
+    "SELECTED_ENDPOINT_LOCK.json": "3bc8152210d5e205b3e0b9b0b55657821aff3d0230f4893fde95edf5ed2dde2a",
+    "SOURCE_LOCAL_VERIFICATION.json": "38ce2b33cfc53e8999d18cd18694e299a43d3c2bb2ef1aa9a3b44d9ce9855aa1"
+  },
+  "selection_lock_sha256": "3bc8152210d5e205b3e0b9b0b55657821aff3d0230f4893fde95edf5ed2dde2a",
+  "original_source_archive_verification_sha256": "046800f2fa0b99df041b527a151acccd63490aec7b222defe33e6781dcf387fc",
+  "source_exited": true,
+  "new_training": false
+}

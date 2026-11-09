@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "full_residual_forwards": 669408,
+  "new_optimizer_updates": 0,
+  "new_semantic_execution": false,
+  "target_masks": false,
+  "time": "2026-11-05T04:09:22.184838+00:00",
+  "registration_sha256": "707ee19e106a00bb5ef6d9e8c5b2c50f64d42402ef61ef96a482def6ebb0beb8",
+  "seconds": 603.3188659101725,
+  "network_frame_forwards": {
+    "source_reload_probe": 192,
+    "target_repeat_probe": 672,
+    "full_target": 669408
+  },
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7643590656,
+    "disk_free": 16851636224
+  },
+  "source_registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+  "source_adoption_sha256": "48a1552cac59cb89b2cad7b6090f6c83f63e35e3d16ec55da339c6cd471c8fe9"
+}

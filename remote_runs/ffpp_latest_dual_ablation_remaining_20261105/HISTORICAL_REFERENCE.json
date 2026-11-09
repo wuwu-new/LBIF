@@ -1,0 +1,66 @@
+{
+  "scope": "previously observed single-seed historical references, not matched independent controls",
+  "seed": 2027,
+  "source_files": {
+    "D:\\Desktop\\DRF_组员交接包_20261020\\experiments\\guarded_transfer_20261026\\iteration_03_sequence_target_20261102\\final_20261102T113604Z\\run\\FINAL_REPORT.json": "a3b7fdf9fca8dfe1442716d466752c7a193be7f7d470267080dad5c7e8b4358b",
+    "D:\\Desktop\\DRF_组员交接包_20261020\\experiments\\guarded_transfer_20261026\\v22_crossdomain_fix2_pathfix1_20261102\\final_20261102T024341Z\\run\\FINAL_REPORT.json": "ece7ad7391afee958f83332f6a4b3b6b9d2baaf593db6e1ef308eb24b7ccc783"
+  },
+  "domains": {
+    "cdf1": {
+      "Semantic": 0.819078947368421,
+      "OldV2": 0.8267543859649122,
+      "HistoricalV18Multi": 0.8289473684210527,
+      "OrderedCLIP": 0.8865131578947368,
+      "StrongStatic": 0.8695175438596491,
+      "V22_FixedFour": 0.8289473684210527
+    },
+    "cdf2": {
+      "Semantic": 0.8709296838131194,
+      "OldV2": 0.8726600597766242,
+      "HistoricalV18Multi": 0.8712049708982225,
+      "OrderedCLIP": 0.8934835614283467,
+      "StrongStatic": 0.8917335221016203,
+      "V22_FixedFour": 0.8711263174453359
+    },
+    "dfd": {
+      "Semantic": 0.9651642854695583,
+      "OldV2": 0.9643676979477165,
+      "HistoricalV18Multi": 0.965297050056532,
+      "OrderedCLIP": 0.978226607736321,
+      "StrongStatic": 0.9748132730325145,
+      "V22_FixedFour": 0.965297050056532
+    },
+    "dfdc": {
+      "Semantic": 0.8337469296344459,
+      "OldV2": 0.8319505851755526,
+      "HistoricalV18Multi": 0.8389340413235081,
+      "OrderedCLIP": 0.8446897124692964,
+      "StrongStatic": 0.8482712035832972,
+      "V22_FixedFour": 0.8388289264557145
+    },
+    "dfdcp": {
+      "Semantic": 0.8303254914598776,
+      "OldV2": 0.8258137286496938,
+      "HistoricalV18Multi": 0.8293989687399291,
+      "OrderedCLIP": 0.8920399613277473,
+      "StrongStatic": 0.8694408636803094,
+      "V22_FixedFour": 0.8295601031260071
+    },
+    "wild": {
+      "Semantic": 0.8484725301798473,
+      "OldV2": 0.8563069721606307,
+      "HistoricalV18Multi": 0.8658659768415866,
+      "OrderedCLIP": 0.8868194136486819,
+      "StrongStatic": 0.8839554077358955,
+      "V22_FixedFour": 0.8659337275190934
+    },
+    "uadfv": {
+      "Semantic": 0.9712121212121212,
+      "OldV2": 0.9737373737373738,
+      "HistoricalV18Multi": 0.9707070707070707,
+      "OrderedCLIP": 0.9691919191919192,
+      "StrongStatic": 0.9691919191919192,
+      "V22_FixedFour": 0.9707070707070707
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "registration_sha256": "74560ff0448aac5d5833577a2fec03eb3d589d5b3514c5b1e9a9b16f467905de",
+  "results_sha256": "9f54c51a53a4c09a0b234187dcd371aee7f649bb82a2fe4375c076941d1d699d",
+  "all_three_endpoints_seven_domains_verified": true,
+  "six_groups_including_reused": true,
+  "full_target_frames": 669408,
+  "neural_rerun": false
+}

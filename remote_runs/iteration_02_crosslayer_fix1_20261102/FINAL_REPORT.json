@@ -1,0 +1,61 @@
+{
+  "time": "2026-11-02T14:26:30.229239+08:00",
+  "iteration": 2,
+  "source": {
+    "videos": 690,
+    "frames": 22080,
+    "real_videos": 138,
+    "fake_videos": 552,
+    "families": 70,
+    "aucs": {
+      "LastLayerResidual": 0.9750315059861374,
+      "CrossLayerResidual": 0.9757403906742281,
+      "CrossLayerNoImage": 0.9805975635370721
+    },
+    "paired": {
+      "LastLayerResidual": {
+        "net_pp": 0.07088846880907163,
+        "repair_pp": 0.3806973324931737,
+        "damage_pp": 0.3098088636841,
+        "descriptive_95_ci_pp": [
+          -0.16869102391475432,
+          0.2996845748842071
+        ],
+        "replicates": 1000,
+        "clusters": 70,
+        "scope": "adaptive source VAL; single residual seed; independently trained no-image control; SD=NA"
+      },
+      "CrossLayerNoImage": {
+        "net_pp": -0.4857172862843928,
+        "repair_pp": 0.10108170552404958,
+        "damage_pp": 0.5867989918084436,
+        "descriptive_95_ci_pp": [
+          -0.6807933953071937,
+          -0.27234182484568326
+        ],
+        "replicates": 1000,
+        "clusters": 70,
+        "scope": "adaptive source VAL; single residual seed; independently trained no-image control; SD=NA"
+      }
+    }
+  },
+  "source_goal95_met": {
+    "LastLayerResidual": true,
+    "CrossLayerResidual": true,
+    "CrossLayerNoImage": true
+  },
+  "seed": 2027,
+  "seed_standard_deviation": null,
+  "shared_semantic": true,
+  "shared_training_prefix": false,
+  "original_independent_replay_passed": false,
+  "per_arm_updates": 7190,
+  "physical_new_updates": 21570,
+  "models_cuda_only": true,
+  "target_evaluation_required_even_if_source_negative": true,
+  "target_inference": false,
+  "source_test_access": false,
+  "target_training": false,
+  "promotion": false,
+  "registration_sha256": "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+}

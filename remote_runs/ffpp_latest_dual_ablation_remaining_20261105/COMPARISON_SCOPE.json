@@ -1,0 +1,8 @@
+{
+  "primary": "internal paired same-protocol components",
+  "literature_CLIP_in_experiment": false,
+  "new_CLIP_training": false,
+  "baseline": "frozen enhanced CLIP semantic branch, not vanilla CLIP",
+  "all_seven_domains": true,
+  "original_external_draft": "docs119 preserved, superseded before registration"
+}

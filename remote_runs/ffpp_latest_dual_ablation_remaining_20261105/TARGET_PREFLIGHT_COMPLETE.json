@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "source_errors": {
+    "3407/RGBFull": 0.0,
+    "3407/UniformPoolFull": 0.0,
+    "3407/NoPatchClassification": 0.0,
+    "3407/NoRegionContrast": 0.0,
+    "3407/NoPatchLearningMatched": 0.0,
+    "4099/RGBFull": 0.0,
+    "4099/UniformPoolFull": 0.0,
+    "4099/NoPatchClassification": 0.0,
+    "4099/NoRegionContrast": 0.0,
+    "4099/NoPatchLearningMatched": 0.0
+  },
+  "target_repeat_errors": {
+    "cdf1": {
+      "3407/RGBFull": 0.0,
+      "3407/UniformPoolFull": 0.0,
+      "3407/NoPatchClassification": 0.0,
+      "3407/NoRegionContrast": 0.0,
+      "3407/NoPatchLearningMatched": 0.0,
+      "4099/RGBFull": 0.0,
+      "4099/UniformPoolFull": 0.0,
+      "4099/NoPatchClassification": 0.0,
+      "4099/NoRegionContrast": 0.0,
+      "4099/NoPatchLearningMatched": 0.0
+    },
+    "cdf2": {
+      "3407/RGBFull": 0.0,
+      "3407/UniformPoolFull": 0.0,
+      "3407/NoPatchClassification": 0.0,
+      "3407/NoRegionContrast": 0.0,
+      "3407/NoPatchLearningMatched": 0.0,
+      "4099/RGBFull": 0.0,
+      "4099/UniformPoolFull": 0.0,
+      "4099/NoPatchClassification": 0.0,
+      "4099/NoRegionContrast": 0.0,
+      "4099/NoPatchLearningMatched": 0.0
+    },
+    "dfd": {
+      "3407/RGBFull": 0.0,
+      "3407/UniformPoolFull": 0.0,
+      "3407/NoPatchClassification": 0.0,
+      "3407/NoRegionContrast": 0.0,
+      "3407/NoPatchLearningMatched": 0.0,
+      "4099/RGBFull": 0.0,
+      "4099/UniformPoolFull": 0.0,
+      "4099/NoPatchClassification": 0.0,
+      "4099/NoRegionContrast": 0.0,
+      "4099/NoPatchLearningMatched": 0.0
+    },
+    "dfdc": {
+      "3407/RGBFull": 0.0,
+      "3407/UniformPoolFull": 0.0,
+      "3407/NoPatchClassification": 0.0,
+      "3407/NoRegionContrast": 0.0,
+      "3407/NoPatchLearningMatched": 0.0,
+      "4099/RGBFull": 0.0,
+      "4099/UniformPoolFull": 0.0,
+      "4099/NoPatchClassification": 0.0,
+      "4099/NoRegionContrast": 0.0,
+      "4099/NoPatchLearningMatched": 0.0
+    },
+    "dfdcp": {
+      "3407/RGBFull": 0.0,
+      "3407/UniformPoolFull": 0.0,
+      "3407/NoPatchClassification": 0.0,
+      "3407/NoRegionContrast": 0.0,
+      "3407/NoPatchLearningMatched": 0.0,
+      "4099/RGBFull": 0.0,
+      "4099/UniformPoolFull": 0.0,
+      "4099/NoPatchClassification": 0.0,
+      "4099/NoRegionContrast": 0.0,
+      "4099/NoPatchLearningMatched": 0.0
+    },
+    "wild": {
+      "3407/RGBFull": 0.0,
+      "3407/UniformPoolFull": 0.0,
+      "3407/NoPatchClassification": 0.0,
+      "3407/NoRegionContrast": 0.0,
+      "3407/NoPatchLearningMatched": 0.0,
+      "4099/RGBFull": 0.0,
+      "4099/UniformPoolFull": 0.0,
+      "4099/NoPatchClassification": 0.0,
+      "4099/NoRegionContrast": 0.0,
+      "4099/NoPatchLearningMatched": 0.0
+    },
+    "uadfv": {
+      "3407/RGBFull": 0.0,
+      "3407/UniformPoolFull": 0.0,
+      "3407/NoPatchClassification": 0.0,
+      "3407/NoRegionContrast": 0.0,
+      "3407/NoPatchLearningMatched": 0.0,
+      "4099/RGBFull": 0.0,
+      "4099/UniformPoolFull": 0.0,
+      "4099/NoPatchClassification": 0.0,
+      "4099/NoRegionContrast": 0.0,
+      "4099/NoPatchLearningMatched": 0.0
+    }
+  },
+  "preflight_forwards": 2880,
+  "new_optimizer_updates": 0,
+  "time": "2026-11-05T14:16:40.302987+00:00",
+  "registration_sha256": "1689d01872440a402a08441ff992bfe7bbba3c523dbb6eff7c8b7bbb74f04b14",
+  "seconds": 9.865252118557692,
+  "network_frame_forwards": {
+    "source_reload_probe": 640,
+    "target_repeat_probe": 2240
+  },
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7688712192,
+    "disk_free": 15056297984
+  }
+}

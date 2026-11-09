@@ -1,0 +1,30 @@
+{
+  "time": "2026-11-03T16:19:19.860517+00:00",
+  "winner": "SemanticHalf",
+  "selection_macro_AUC": {
+    "SemanticHalf": 0.904310649417378,
+    "Semantic_UniformNoAux": 0.9016663141868738,
+    "Semantic_UniformAux": 0.9011537785233682,
+    "Semantic_BoundaryAux": 0.9011607100029734
+  },
+  "metric": "equal_weight_seven_domain_macro_video_AUC",
+  "tie_break": "candidate order, exact equality only",
+  "source_result": "experiments/guarded_transfer_20261026/ffpp_boundary_readout_crossdomain_20261103/final_20261103T161322621023Z",
+  "results_sha256": "c9a86c62fb012fbc8d95e71937ff496fcacc4656341797b4dc832ad637fffbfa",
+  "verification_sha256": "7359dd31c136c53190dd766e9818144b4e7569fabb3597a48685fce93099e8e7",
+  "selection_adaptive": true,
+  "independent_confirmation": false,
+  "seeds": [
+    2027,
+    3407,
+    4099
+  ],
+  "new_training_seeds": [
+    3407,
+    4099
+  ],
+  "epoch": 10,
+  "updates_per_new_seed": 7190,
+  "retained_new_updates": 14380,
+  "seed2027_retrain": false
+}

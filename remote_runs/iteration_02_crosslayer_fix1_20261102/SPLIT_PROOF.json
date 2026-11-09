@@ -1,0 +1,10 @@
+{
+  "train_frames": 11492,
+  "train_videos": 2873,
+  "train_families": 291,
+  "val_frames": 22080,
+  "val_videos": 690,
+  "val_families": 70,
+  "historical_semantic_saw_train": true,
+  "identity_disjointness_claimed": false
+}

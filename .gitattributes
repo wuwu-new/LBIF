@@ -1,0 +1,6 @@
+# Preserve registered snapshot bytes on every platform.
+remote_runs/** -text
+external_code/** -text
+docs/protocols/** -text
+reproducibility/SNAPSHOT_README.md -text
+reproducibility/EXTERNAL_DEPENDENCIES.json -text

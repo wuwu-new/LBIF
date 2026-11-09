@@ -1,0 +1,63 @@
+{
+  "configuration": {
+    "status": "implementation_and_synthetic_validation_only",
+    "source_training_authorized": false,
+    "target_testing_authorized": false,
+    "semantic_frozen": true,
+    "new_CLIP_training": false,
+    "image_size": 256,
+    "patch_size": 16,
+    "grid_size": 16,
+    "patches_per_image": 256,
+    "patch_label_rule": "aligned authentic binary mask coverage strictly > 0.1",
+    "missing_masks": "excluded, never replaced by all-real or all-fake patches",
+    "patch_embedding": "adaptive-average-pool encoder f2 to 16x16, 64 channels",
+    "patch_classifier": "shared trainable 64-to-1 head, 256 logits per image",
+    "contrast": "class-balanced per-image supervised contrastive; fake images only",
+    "contrast_minimum_per_class": 2,
+    "temperature": 0.5,
+    "boundary_weight": 0.2,
+    "delta_penalty": 0.01,
+    "variants": {
+      "NoPatchLearning": {
+        "patch_classification": 0.0,
+        "patch_contrast": 0.0
+      },
+      "PatchClassification": {
+        "patch_classification": 0.2,
+        "patch_contrast": 0.0
+      },
+      "PatchClassificationContrast": {
+        "patch_classification": 0.2,
+        "patch_contrast": 0.1
+      }
+    },
+    "image_forward": "unchanged error-map/legacy-boundary-pool bounded delta",
+    "inference_requires_masks": false,
+    "patch_heads_used_for_image_inference": false,
+    "synthetic_preflight_max_image_forwards": 64,
+    "synthetic_disposable_optimizer_updates": 6,
+    "retained_optimizer_updates": 0,
+    "dataset_frames_read": 0,
+    "full_experiment_budget": null
+  },
+  "base_registration_sha256": "42236ec1ae9e8fa019f512f2625ea89f1db91072c044a8baebea16eca3335745",
+  "files": {
+    "IMPLEMENTATION_PROTOCOL.md": "c36c1161201a05c48f3413c2b21c4396e4b5db80f9b153f9a2cac2d70fe1e3ce",
+    "LOCAL_MANAGER.py": "e5bd003e0c32edc65948851e2746e6331c5c8674d397f0242a0a1bd4486fc888",
+    "REFERENCE_AUDIT.json": "a269bbf916ed095cfa57602e9397d0d04c01cdf06b68d533c61dee5e610f98e5",
+    "STATIC_TESTS.json": "feb392dd113a9d89b3bd4da2286dad1599052e34ad2a79426be39442a99ae98b",
+    "STATIC_TEST_SOURCE.py": "2f1d00781dd1251ecc7705dcdcd11cd1daa81035bb36849dc7cb16a8db45a5ac",
+    "implementation/gpu_identity_guard.py": "b8a032568b509f114de4a9b91effeb435e95f4d108eb0b0c72a5f0c1dcc730a0",
+    "implementation/legacy_component_plan.py": "d8929659005f510525b728deda4074a2154ea46b85e4c6231e139e4134515599",
+    "implementation/legacy_model_cuda.py": "76a16d255970580738f8867c9678960a45f5bce4f15624474071c9d7c14c4998",
+    "implementation/model_cuda.py": "eea9b4e64de532015dd2b94dd4df9c1294d1233f72d726b4782274b809b7595d",
+    "implementation/objectives_cuda.py": "9dced00b0529348c8488f391831aa3b25ec056327a8ae0cb84bfe34d0b8ef290",
+    "implementation/patch_config.py": "c94c70424af782482e911c57fe553b553609afbe1d9294c2f657a9afa4495a29",
+    "implementation/plan.py": "236578edac1e66f73843d38e1e9cb885029bbc4d8ca3ec2c1606e4bca55c8cb5",
+    "implementation/preflight_cuda.py": "6a0ab140852b55ee310ee641d80a447cc3e2b8186a6032f7e983dc0e2c5f72f4",
+    "implementation/prior_cuda_model.py": "6750559a932fb17b16cffa11398d8dd8076cf430bde29c3cacda42d20b4de823"
+  },
+  "permission": "synthetic implementation verification only, no real experiments",
+  "registration_sha256": "463954fa31eefa3b7f909a0b467254a357da3b875a579bd12788a7588356f9f3"
+}

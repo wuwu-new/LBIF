@@ -1,0 +1,31 @@
+{
+  "source": {
+    "passed": true,
+    "epochs_replayed": 22,
+    "videos_per_epoch": 690,
+    "frames_per_epoch": 22080,
+    "max_auc_error": 0.0,
+    "source_paired_statistics_reproduced": true,
+    "model_loading_local": false,
+    "local_model_execution": false,
+    "original_independent_replay_passed": false,
+    "complete_optimization_round": false,
+    "note": "source saved-video AUC replay; not a source frame-prediction replay; full seven domains still required"
+  },
+  "target": {
+    "passed": true,
+    "frames_replayed": 223136,
+    "videos": 6973,
+    "max_frame_video_error": 9.20928360237383e-08,
+    "all_six_auc_columns_reproduced": true,
+    "paired_statistics_reproduced": true,
+    "macro_reproduced": true,
+    "historical_frame_columns_exact": true,
+    "matched_control_exact": true,
+    "local_model_execution": false,
+    "original_independent_replay_passed": false,
+    "adaptive_exploration": true
+  },
+  "target_report_sha256": "cce36c0e8f820718dfc0fe32e39c5c4295b84d903a983a861561e98ccc915064",
+  "target_refresh_macro_gain_pp": -0.013635656914290806
+}

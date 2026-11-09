@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "historical_full_max_errors": {
+    "2027": 0.0,
+    "3407": 0.0,
+    "4099": 0.0
+  },
+  "initialization_sha256": {
+    "2027": {
+      "PatchClassificationContrast": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f"
+    },
+    "3407": {
+      "PatchClassificationContrast": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5"
+    },
+    "4099": {
+      "PatchClassificationContrast": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2"
+    }
+  },
+  "shared_initialization_sha256": {
+    "2027": {
+      "PatchClassificationContrast": "9af29092caa5b5c314961b58241a15169113b94be38b7619f0df710618ae9674"
+    },
+    "3407": {
+      "PatchClassificationContrast": "a11100d7bb545ca8d07af2d8ad61c399d07912e641ac75c075e3d7c00cfa4c9e"
+    },
+    "4099": {
+      "PatchClassificationContrast": "f3d3f2b2c36739379f426d67533213957b1661c1cf0cbf9fbb453c462b5f0e7b"
+    }
+  },
+  "gradient_checks": {
+    "2027": {
+      "PatchClassificationContrast": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      }
+    },
+    "3407": {
+      "PatchClassificationContrast": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      }
+    },
+    "4099": {
+      "PatchClassificationContrast": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      }
+    }
+  },
+  "real_TRAIN_fixture_indices": [
+    0,
+    8
+  ],
+  "real_TRAIN_fixture_identities": [
+    [
+      "ffpp:real:071",
+      0
+    ],
+    [
+      "ffpp:Deepfakes:071_054",
+      0
+    ]
+  ],
+  "disposable_optimizer_updates": 6,
+  "new_retained_updates": 0,
+  "preflight_frame_forwards": 216,
+  "new_semantic_execution": false,
+  "time": "2026-11-05T02:22:28.837854+00:00",
+  "registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+  "seconds": 68.23901762068272,
+  "network_frame_forwards": {
+    "historical_full_replay": 192,
+    "synthetic_zero_head": 6,
+    "real_TRAIN_gradient": 6,
+    "disposable_synthetic": 12
+  },
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7330390016,
+    "disk_free": 17202880512
+  }
+}

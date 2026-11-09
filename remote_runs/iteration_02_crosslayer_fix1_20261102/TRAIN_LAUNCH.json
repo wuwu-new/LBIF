@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-02T13:00:31.899241+08:00",
+  "pid": 350921,
+  "command": [
+    "/root/miniconda3/bin/python",
+    "-u",
+    "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_02_crosslayer_fix1_20261102/implementation/run_crosslayer_cuda.py",
+    "--run",
+    "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_02_crosslayer_fix1_20261102"
+  ],
+  "registration_sha256": "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f",
+  "source_test_access": false
+}

@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "source_errors": {
+    "2027/PatchClassificationContrast": 0.0,
+    "3407/PatchClassificationContrast": 0.0,
+    "4099/PatchClassificationContrast": 0.0
+  },
+  "target_repeat_errors": {
+    "cdf1": {
+      "2027/PatchClassificationContrast": 0.0,
+      "3407/PatchClassificationContrast": 0.0,
+      "4099/PatchClassificationContrast": 0.0
+    },
+    "cdf2": {
+      "2027/PatchClassificationContrast": 0.0,
+      "3407/PatchClassificationContrast": 0.0,
+      "4099/PatchClassificationContrast": 0.0
+    },
+    "dfd": {
+      "2027/PatchClassificationContrast": 0.0,
+      "3407/PatchClassificationContrast": 0.0,
+      "4099/PatchClassificationContrast": 0.0
+    },
+    "dfdc": {
+      "2027/PatchClassificationContrast": 0.0,
+      "3407/PatchClassificationContrast": 0.0,
+      "4099/PatchClassificationContrast": 0.0
+    },
+    "dfdcp": {
+      "2027/PatchClassificationContrast": 0.0,
+      "3407/PatchClassificationContrast": 0.0,
+      "4099/PatchClassificationContrast": 0.0
+    },
+    "wild": {
+      "2027/PatchClassificationContrast": 0.0,
+      "3407/PatchClassificationContrast": 0.0,
+      "4099/PatchClassificationContrast": 0.0
+    },
+    "uadfv": {
+      "2027/PatchClassificationContrast": 0.0,
+      "3407/PatchClassificationContrast": 0.0,
+      "4099/PatchClassificationContrast": 0.0
+    }
+  },
+  "preflight_forwards": 7008,
+  "new_optimizer_updates": 0,
+  "acceleration": {
+    "passed": true,
+    "trials": [
+      {
+        "parallel": false,
+        "seconds": 3.2506761737167835,
+        "frames": 512,
+        "model_forwards": 1536
+      },
+      {
+        "parallel": true,
+        "seconds": 1.3175099790096283,
+        "frames": 512,
+        "model_forwards": 1536
+      },
+      {
+        "parallel": true,
+        "seconds": 1.3284466601908207,
+        "frames": 512,
+        "model_forwards": 1536
+      },
+      {
+        "parallel": false,
+        "seconds": 3.2838928028941154,
+        "frames": 512,
+        "model_forwards": 1536
+      }
+    ],
+    "speedup": 2.4696432586232797,
+    "enable_prefetch": true,
+    "max_output_error": 0.0,
+    "extra_frame_forwards": 6144,
+    "new_optimizer_updates": 0,
+    "source_registration_sha256": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+    "selection_lock_sha256": "0dfd9b522b475d0f15b3c1e0cb2ad330e2a20c3f11c5620da1e69b4758bf6c18"
+  }
+}

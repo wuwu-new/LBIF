@@ -1,0 +1,144 @@
+{
+  "name": "strong_anchor_residual_gate_v5_20261027",
+  "metric": "video_auc_mean_frame_probability",
+  "source_goal": 0.95,
+  "per_target_goal": 0.85,
+  "seeds": [
+    2027,
+    3407,
+    4099
+  ],
+  "train_frames": 4,
+  "eval_frames": 32,
+  "epochs": 10,
+  "batch_size": 16,
+  "cache_batch_size": 32,
+  "workers": 2,
+  "semantic_lr": 0.001,
+  "dual_lr": 0.0003,
+  "filter_lr_multiplier": 0.1,
+  "weight_decay": 0.01,
+  "residual_aux_weight": 0.1,
+  "consistency_weight": 0.05,
+  "paired_augmentation": true,
+  "gate_steps": 600,
+  "gate_lr": 0.01,
+  "clip_path": "/root/drf_selective_pilot_clip_20261026_01",
+  "source_indexes": {
+    "train": "/root/autodl-tmp/results/protocol1/unified_indexes_ffpp_c23/ffpp_c23_train.json",
+    "val": "/root/autodl-tmp/results/protocol1/unified_indexes_ffpp_c23/ffpp_c23_val.json",
+    "test": "/root/autodl-tmp/results/protocol1/unified_indexes_ffpp_c23/ffpp_c23_test.json"
+  },
+  "model": {
+    "hidden": 128,
+    "heads": 4,
+    "radius": 1,
+    "adapt_scale": 0.1,
+    "correction_bound": 2.0,
+    "use_semantic": true,
+    "use_residual": true,
+    "use_filter": true,
+    "use_interaction": true
+  },
+  "ablations": {
+    "Full": {},
+    "NoResidual": {
+      "use_residual": false
+    },
+    "NoSemantic": {
+      "use_semantic": false
+    },
+    "NoFilter": {
+      "use_filter": false
+    },
+    "NoInteraction": {
+      "use_interaction": false
+    },
+    "NoAdaptation": {
+      "adapt_scale": 0.0
+    }
+  },
+  "gate_controls": {
+    "Full": "sample",
+    "GlobalGate": "global",
+    "NoGate": "constant_one",
+    "SemanticAnchor": "constant_zero"
+  },
+  "targets": {
+    "cdf1": {
+      "index": "/root/autodl-tmp/results/protocol1/unified_indexes_celeb_df/celeb_df_v1_test.json",
+      "protocol": "historical_dlib_fixed32_224"
+    },
+    "cdf2": {
+      "index": "/root/autodl-tmp/results/protocol1/unified_indexes_celeb_df/celeb_df_v2_test.json",
+      "protocol": "historical_dlib_fixed32_224"
+    },
+    "dfd": {
+      "index": "/root/autodl-tmp/results/protocol1/unified_indexes_dfd/dfd_all.json",
+      "protocol": "historical_dlib_fixed32_224_retained_subset"
+    },
+    "dfdc": {
+      "index": "/root/autodl-tmp/results/protocol1/non_strict_indexes/dfdc_exact32_non_strict.json",
+      "protocol": "legacy_preprocessed_test_exact32_non_strict"
+    },
+    "dfdcp": {
+      "index": "/root/autodl-tmp/results/protocol1/non_strict_indexes/dfdcp_exact32_non_strict.json",
+      "protocol": "legacy_preprocessed_exact32_non_strict"
+    },
+    "wild": {
+      "index": "/root/autodl-tmp/data/WildDeepfake/wilddeepfake_test.json",
+      "protocol": "legacy_preprocessed_at_least32_retained_subset"
+    },
+    "uadfv": {
+      "index": "/root/autodl-tmp/data/UADFV/uadfv_test.json",
+      "protocol": "legacy_preprocessed_at_least32_retained_subset"
+    }
+  },
+  "seed": 2027,
+  "fit_families": 1000000000,
+  "pilot_val_families": 1000000000,
+  "gate_families_per_fold": 1000000000,
+  "semantic_checkpoint": "/root/autodl-tmp/drf_dual_transfer_20261026/checkpoints/no_residual/ckpt_best.pth",
+  "semantic_query_dim": 192,
+  "semantic_query_source": "frozen historical semantic_query; fp16 patches, fp32 logit",
+  "protocol_scope": "all prepared source families; inherited semantic seed2027; exploratory targets",
+  "comparison_to_v1": "larger source budget AND frozen compact query representation; not a one-factor ablation",
+  "architectures": {
+    "DW": {
+      "encoder_kind": "dw",
+      "injection": "baseline",
+      "semantic_shortcut": true
+    },
+    "DW_LayerScale": {
+      "encoder_kind": "dw",
+      "injection": "layerscale",
+      "semantic_shortcut": true
+    },
+    "IR_LayerScale": {
+      "encoder_kind": "inverted",
+      "injection": "layerscale",
+      "semantic_shortcut": true
+    },
+    "ResidualRequired_LayerScale": {
+      "encoder_kind": "dw",
+      "injection": "layerscale",
+      "semantic_shortcut": false
+    }
+  },
+  "architecture_selection": "seed2027 nominates by source VAL g=1; all three correction seeds confirm",
+  "gate_selection": "after architecture lock; fixed scales or bounded soft gate; source only",
+  "minimum_mean_gain_auc": 0.001,
+  "maximum_seed_regression_auc": 0.0005,
+  "paired_bootstrap_replicates": 1000,
+  "training_scope": "one frozen historical semantic anchor; three independent correction seeds",
+  "family_scope": "fit/gate families isolated for corrections; historical anchor saw original TRAIN",
+  "source_val_scope": "reused for epoch/model selection; descriptive, not independent confirmation",
+  "targets_scope": "historical target results already observed; exploratory; no target model selection",
+  "old_reference_checkpoint_sha256": "b5c3ab1fb495f9362e4f0614826f2289f3bf7f6840351ccbeed2102ef5bc4282",
+  "semantic_checkpoint_sha256": "aa7dc8cb2dc13edbc85abed47e815687ce14e9476286d02a21f5cc1b2d175865",
+  "learned_gate_range": [
+    0.75,
+    1.0
+  ],
+  "resume_scope": "completed stages only; partial trained folders require a separately named repair version"
+}

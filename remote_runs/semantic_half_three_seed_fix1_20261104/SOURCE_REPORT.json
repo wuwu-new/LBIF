@@ -1,0 +1,130 @@
+{
+  "time": "2026-11-03T17:30:52.897904+00:00",
+  "registration_sha256": "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98",
+  "seed_receipts": {
+    "3407": {
+      "time": "2026-11-03T17:14:32.023461+00:00",
+      "seed": 3407,
+      "epoch": 10,
+      "updates": 719,
+      "total_updates": 7190,
+      "initialization_sha256": "52e2b600878f53af3b3b348c0bd4c820779dc4adf0f7861a4f14abfafcf87892",
+      "slot_sampling_sha256": "ed34bd814d4c9021a17596df5d0ab825e9ae0a4875ddad9ae72d5a0a3822faf4",
+      "schedule_size": 11492,
+      "frame_scores": "frames_10.csv",
+      "frames_sha256": "0809c7def49f2935fbd0192b0d0cfb505461a3579c49f8fac0cb93b5dcece028",
+      "checkpoint": "epoch_10.pt",
+      "checkpoint_sha256": "8c131beb78a0e92f48a43e6e1d96250ee026a5eb46cdd2767c1c10879eb1c8ff",
+      "model_tensor_sha256": "a4f623c4dedd4303cfd20a1f9de57196f500a90fc76f63d11ec7fe766d2b00e4",
+      "identity": [
+        "CrossLayerNoImage",
+        10,
+        3407,
+        "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98"
+      ],
+      "checkpoint_logit_max_error": 0.0,
+      "gradient_audits": [
+        {
+          "step": 0,
+          "gradients": {
+            "adapter": 0.22633658349514008,
+            "correction": 0.3446730077266693,
+            "readout": 1.3305531740188599
+          }
+        },
+        {
+          "step": 350,
+          "gradients": {
+            "adapter": 0.059493497014045715,
+            "correction": 0.07902594655752182,
+            "readout": 0.4000047743320465
+          }
+        },
+        {
+          "step": 718,
+          "gradients": {
+            "adapter": 0.08635353296995163,
+            "correction": 0.11984089016914368,
+            "readout": 0.39245057106018066
+          }
+        }
+      ],
+      "loss_mean": 0.07593233148685251,
+      "seconds": 85.61151847615838
+    },
+    "4099": {
+      "time": "2026-11-03T17:30:15.024749+00:00",
+      "seed": 4099,
+      "epoch": 10,
+      "updates": 719,
+      "total_updates": 7190,
+      "initialization_sha256": "2fac04db2b01a39ed020033bb38f7ca8071160435ae081c5f48b324b6d06cc8f",
+      "slot_sampling_sha256": "9fdb1a006b80ce980eeb221ccdf124f9925473bb3b61487c17f11afc81c1746b",
+      "schedule_size": 11492,
+      "frame_scores": "frames_10.csv",
+      "frames_sha256": "90bc808cc483498618615f0d67cd8ab0585a5ef6222001d80054c3af54b3882e",
+      "checkpoint": "epoch_10.pt",
+      "checkpoint_sha256": "5335107258d8bb004593a3a8057ac74f7a59b8f0bae07cb70ffeeed51e7dab2c",
+      "model_tensor_sha256": "03d6488823ae9521e92d72413e4e2d7a45b48e626b668b158ebcd9787b24be38",
+      "identity": [
+        "CrossLayerNoImage",
+        10,
+        4099,
+        "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98"
+      ],
+      "checkpoint_logit_max_error": 0.0,
+      "gradient_audits": [
+        {
+          "step": 0,
+          "gradients": {
+            "adapter": 0.01383975613862276,
+            "correction": 0.025260567665100098,
+            "readout": 0.10242204368114471
+          }
+        },
+        {
+          "step": 350,
+          "gradients": {
+            "adapter": 0.011931921355426311,
+            "correction": 0.012615125626325607,
+            "readout": 0.16336682438850403
+          }
+        },
+        {
+          "step": 718,
+          "gradients": {
+            "adapter": 0.11071579903364182,
+            "correction": 0.15401455760002136,
+            "readout": 0.551884651184082
+          }
+        }
+      ],
+      "loss_mean": 0.08447762629436911,
+      "seconds": 85.03863718360662
+    }
+  },
+  "new_retained_updates": 14380,
+  "source_training_seeds": [
+    3407,
+    4099
+  ],
+  "source_TEST": false,
+  "target_access": false,
+  "disposable_updates_this_process": 4,
+  "readonly_cache_checks": {
+    "3407": {
+      "fit": "c7245f80858f549c504192d7e371c519ba5102477d212f67cf6b5045fe7601ef",
+      "fit_aug": "f785068954695d1c38a5bf2ea11ea234888d72d072e73f8506890e9d98dceb4c"
+    },
+    "4099": {
+      "fit": "c7245f80858f549c504192d7e371c519ba5102477d212f67cf6b5045fe7601ef",
+      "fit_aug": "f785068954695d1c38a5bf2ea11ea234888d72d072e73f8506890e9d98dceb4c"
+    }
+  },
+  "seconds": 2080.076793219894,
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7646535680,
+    "disk_free": 20552634368
+  }
+}

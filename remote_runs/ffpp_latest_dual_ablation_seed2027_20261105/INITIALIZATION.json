@@ -1,0 +1,9 @@
+{
+  "2027": {
+    "RGBFull": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+    "UniformPoolFull": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+    "NoPatchClassification": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+    "NoRegionContrast": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f",
+    "NoPatchLearningMatched": "1bdbcfcefc4697cfd7127b04e5043903402d71e549429a7085c4b33eeec9567f"
+  }
+}

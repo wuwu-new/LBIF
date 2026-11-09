@@ -1,0 +1,18 @@
+{
+  "source": {
+    "local_path": "D:\\Desktop\\DRF_组员交接包_20261020\\experiments\\guarded_transfer_20261026\\ffpp_legacy_delta_full_fix2_20261104\\source_final_20261104T051748624609Z",
+    "proof_sha256": "5718912c631426f19787e06a78524a15b32f5747d5e7775b4b2ef547a16ee904",
+    "registration": "4e7ce9ae6ac3e109e08ae67a63f0a98a20bb1546618ae9406030b6cea19d1d85"
+  },
+  "selection": {
+    "local_path": "D:\\Desktop\\DRF_组员交接包_20261020\\experiments\\guarded_transfer_20261026\\ffpp_legacy_delta_sourcebest_20261104\\final_20261104T070144981424Z",
+    "proof_sha256": "23e86b6a3cadfb565e95e38e8650c21fa1808dd4aaa12f603b9de2beee184b64",
+    "registration": "7797d099f3096534f230e81cea7d2bef73a01bf7c37cce03e8c4981cd2863d89"
+  },
+  "target": {
+    "local_path": "D:\\Desktop\\DRF_组员交接包_20261020\\experiments\\guarded_transfer_20261026\\ffpp_legacy_delta_sourcebest_target_20261104\\final_20261104T074309605430Z",
+    "proof_sha256": "9e8bc2804eb9a3e8d285c495e093d6416dfcb7d5386671678eee5bf3646fe9f5",
+    "registration": "5878f9871cf5c27d993878f54afaf48fc4b9bd3fa1dcacf3fdb2733cf80a8c0e",
+    "archive_sha256": "09f9a0c2eaf5debfa1bf84ce4e207d4f41ed38dc7e113193392fd839b58464ab"
+  }
+}

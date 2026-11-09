@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "name": "代码第一版",
+  "remote_path": "/root/autodl-tmp/drf_dual_transfer_20261026/代码第一版",
+  "host": "region-46.seetacloud.com",
+  "port": 28081,
+  "files_verified": 94382,
+  "bytes_verified": 4610742620,
+  "training_data_files": 93951,
+  "training_data_bytes": 4516421204,
+  "input_manifests": [
+    {
+      "run": "ffpp_patch_region_full_20261105",
+      "split": "fit",
+      "rows": 11492,
+      "families": 291,
+      "videos": 2873,
+      "source": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/inputs/fit.json",
+      "sha256": "f8b48f074dfb257c4ba30159a6792d6cbe8802eb15ce03352024cb1d653423a8"
+    },
+    {
+      "run": "ffpp_patch_region_full_20261105",
+      "split": "source_val",
+      "rows": 22080,
+      "families": 70,
+      "videos": 690,
+      "source": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_patch_region_full_20261105/inputs/source_val.json",
+      "sha256": "a6c0225b2b830507bea5c9f632d2a0eaafb6bc87785695c96055fe423bc080e4"
+    },
+    {
+      "run": "semantic_half_three_seed_fix1_20261104",
+      "split": "fit",
+      "rows": 11492,
+      "families": 291,
+      "videos": 2873,
+      "source": "/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_fix1_20261104/inputs/fit.json",
+      "sha256": "8a959dc4205ea33c23a4481160a726ba106616b6f1c532cb08567a2081fcfb74"
+    },
+    {
+      "run": "semantic_half_three_seed_fix1_20261104",
+      "split": "source_val",
+      "rows": 22080,
+      "families": 70,
+      "videos": 690,
+      "source": "/root/autodl-tmp/drf_dual_transfer_20261026/semantic_half_three_seed_fix1_20261104/inputs/source_val.json",
+      "sha256": "565cb6de08eb49b735915e2c342d6c3fd0ee2a1d52d20a0c9dc3a99d10493fbb"
+    }
+  ],
+  "all_source_manifest_hashes_verified": true,
+  "source_and_backup_hardlink_or_symlink": false,
+  "all_copies_independent": true,
+  "manifest_sha256": "01fbc8a0f0a0be6c988670d3976cf01f9ece1df73a56f8ff38eae82abaad0bf1",
+  "checksums_sha256": "187b14dec23605f997e3e2051132c788b1bf08d4101257c3f323dde1fb9aa5ef",
+  "code_archive": "/root/autodl-tmp/drf_dual_transfer_20261026/代码第一版/代码第一版_代码与配置.tar.gz",
+  "code_archive_sha256": "622d12d06a8ccfa2cb8c3e95a8f4815080549260f524afb1846d1a0bc65af907",
+  "code_archive_bytes": 10801704,
+  "disk_free_after": 9630281728,
+  "code_registrations": {
+    "ffpp_patch_region_full_20261105": "3c2bbc1cf7b3066ca7d81f212de9f0f33b08befca78a4caeba226ada941368ee",
+    "ffpp_patch_region_prefetch_target_20261105": "707ee19e106a00bb5ef6d9e8c5b2c50f64d42402ef61ef96a482def6ebb0beb8",
+    "ffpp_latest_dual_ablation_seed2027_20261105": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+    "ffpp_latest_ablation_prefetch_fix1_target_20261105": "2ad2d761c09daac13009e3be3bdc4457c08f16739ec5b610a484c2d906f187da",
+    "ffpp_latest_dual_ablation_remaining_20261105": "1689d01872440a402a08441ff992bfe7bbba3c523dbb6eff7c8b7bbb74f04b14",
+    "semantic_half_three_seed_fix1_20261104": "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98",
+    "iteration_02_crosslayer_fix1_20261102": "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+  },
+  "completed_utc": "2026-11-09T02:57:01.542604+00:00"
+}

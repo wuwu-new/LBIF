@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-05T08:05:23.508963+00:00",
+  "pid": 547193,
+  "registration_sha256": "2ad2d761c09daac13009e3be3bdc4457c08f16739ec5b610a484c2d906f187da",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "-u",
+    "-B",
+    "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_ablation_prefetch_fix1_target_20261105/implementation/run_cuda.py",
+    "--run",
+    "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_ablation_prefetch_fix1_target_20261105",
+    "--stage",
+    "target"
+  ]
+}

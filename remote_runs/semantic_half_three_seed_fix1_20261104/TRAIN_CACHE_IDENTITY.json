@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-03T16:59:24.470361+00:00",
+  "sha256": {
+    "fit": "c7245f80858f549c504192d7e371c519ba5102477d212f67cf6b5045fe7601ef",
+    "fit_aug": "f785068954695d1c38a5bf2ea11ea234888d72d072e73f8506890e9d98dceb4c"
+  },
+  "rows": 11492,
+  "two_views_shared_readonly": true,
+  "new_disk_features": false
+}

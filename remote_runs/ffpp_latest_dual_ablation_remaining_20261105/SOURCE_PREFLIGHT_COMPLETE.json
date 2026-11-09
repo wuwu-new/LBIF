@@ -1,0 +1,282 @@
+{
+  "passed": true,
+  "historical_full_max_errors": {
+    "3407": 0.0,
+    "4099": 0.0
+  },
+  "latest_full_max_errors": {
+    "3407": 0.0,
+    "4099": 0.0
+  },
+  "initialization_sha256": {
+    "3407": {
+      "RGBFull": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+      "UniformPoolFull": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+      "NoPatchClassification": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+      "NoRegionContrast": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5",
+      "NoPatchLearningMatched": "8df32aa8070288b04f2cbb863d7898835be99f41ecced8414972ffb0fb1928d5"
+    },
+    "4099": {
+      "RGBFull": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+      "UniformPoolFull": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+      "NoPatchClassification": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+      "NoRegionContrast": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2",
+      "NoPatchLearningMatched": "fef858b2c1338cadb10e6fd3481c500ca0dd1797b612abc6f3095e17453aefd2"
+    }
+  },
+  "shared_initialization_sha256": {
+    "3407": {
+      "RGBFull": "a11100d7bb545ca8d07af2d8ad61c399d07912e641ac75c075e3d7c00cfa4c9e",
+      "UniformPoolFull": "a11100d7bb545ca8d07af2d8ad61c399d07912e641ac75c075e3d7c00cfa4c9e",
+      "NoPatchClassification": "a11100d7bb545ca8d07af2d8ad61c399d07912e641ac75c075e3d7c00cfa4c9e",
+      "NoRegionContrast": "a11100d7bb545ca8d07af2d8ad61c399d07912e641ac75c075e3d7c00cfa4c9e",
+      "NoPatchLearningMatched": "a11100d7bb545ca8d07af2d8ad61c399d07912e641ac75c075e3d7c00cfa4c9e"
+    },
+    "4099": {
+      "RGBFull": "f3d3f2b2c36739379f426d67533213957b1661c1cf0cbf9fbb453c462b5f0e7b",
+      "UniformPoolFull": "f3d3f2b2c36739379f426d67533213957b1661c1cf0cbf9fbb453c462b5f0e7b",
+      "NoPatchClassification": "f3d3f2b2c36739379f426d67533213957b1661c1cf0cbf9fbb453c462b5f0e7b",
+      "NoRegionContrast": "f3d3f2b2c36739379f426d67533213957b1661c1cf0cbf9fbb453c462b5f0e7b",
+      "NoPatchLearningMatched": "f3d3f2b2c36739379f426d67533213957b1661c1cf0cbf9fbb453c462b5f0e7b"
+    }
+  },
+  "gradient_checks": {
+    "3407": {
+      "RGBFull": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "RGB",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "UniformPoolFull": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "uniform",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoPatchClassification": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.0,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": false,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoRegionContrast": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.0,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoPatchLearningMatched": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.0,
+          "patch_contrast": 0.0,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": false,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      }
+    },
+    "4099": {
+      "RGBFull": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "RGB",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "UniformPoolFull": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "uniform",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoPatchClassification": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.0,
+          "patch_contrast": 0.1,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": false,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoRegionContrast": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.2,
+          "patch_contrast": 0.0,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": true,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      },
+      "NoPatchLearningMatched": {
+        "passed": true,
+        "real_TRAIN_patch_encoder_gradient": true,
+        "real_TRAIN_patch_classifier_gradient": true,
+        "real_TRAIN_contrast_encoder_gradient": true,
+        "semantic_gradient": false,
+        "invalid_mask_invariant": true,
+        "nonTRAIN_supervision_rejected": true,
+        "declared_variant": {
+          "input": "signed_RGB_minus_Gaussian5_sigma1",
+          "pooling": "predicted_boundary_cells_quarter_floor",
+          "boundary_coefficient": 0.2,
+          "patch_classification": 0.0,
+          "patch_contrast": 0.0,
+          "temperature": 0.5
+        },
+        "total_patch_gradient_enabled": false,
+        "disposable_updates": 2,
+        "allocated_parameters": 118722
+      }
+    }
+  },
+  "real_TRAIN_fixture_indices": [
+    0,
+    8
+  ],
+  "real_TRAIN_fixture_identities": [
+    [
+      "ffpp:real:071",
+      0
+    ],
+    [
+      "ffpp:Deepfakes:071_054",
+      0
+    ]
+  ],
+  "disposable_optimizer_updates": 20,
+  "new_retained_updates": 0,
+  "preflight_frame_forwards": 336,
+  "new_semantic_execution": false,
+  "time": "2026-11-05T08:48:24.890149+00:00",
+  "registration_sha256": "1689d01872440a402a08441ff992bfe7bbba3c523dbb6eff7c8b7bbb74f04b14",
+  "seconds": 71.38268331065774,
+  "network_frame_forwards": {
+    "historical_full_replay": 128,
+    "latest_full_replay": 128,
+    "synthetic_zero_head": 20,
+    "real_TRAIN_gradient": 20,
+    "disposable_synthetic": 40
+  },
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 8413179904,
+    "disk_free": 15630073856
+  }
+}

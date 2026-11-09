@@ -1,0 +1,10 @@
+{
+  "path": "/root/autodl-tmp/drf_dual_transfer_20261026/iteration_02_crosslayer_fix1_20261102/arms/CrossLayerNoImage/epoch_10.pt",
+  "checkpoint_sha256": "860efe969042c218b807f3277966c27bca537e651bac127df612ab6d52331eae",
+  "model_tensor_sha256": "7ee1e653cc4e2d8c6d9ceecb0edf93e80745de0e2fb918d4e1c8b41a5fd12085",
+  "initialization_sha256": "afe22bc238c102244c1877184c79784d87c9c7c2131142a49e22ca956ec05089",
+  "seed": 2027,
+  "epoch": 10,
+  "registration_sha256": "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f",
+  "updates": 7190
+}

@@ -1,0 +1,25 @@
+{
+  "time": "2026-11-03T17:56:37.050737+00:00",
+  "registration_sha256": "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98",
+  "frames_by_domain": {
+    "cdf1": 2848,
+    "cdf2": 15424,
+    "dfd": 58560,
+    "dfdc": 106816,
+    "dfdcp": 10848,
+    "wild": 25792,
+    "uadfv": 2848
+  },
+  "full_model_frame_forwards": 446272,
+  "preflight_model_frame_forwards_this_process": 336,
+  "source_TEST": false,
+  "target_masks": false,
+  "new_training_updates": 0,
+  "model_weights_unchanged": true,
+  "seconds": 1124.5716611780226,
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7839711232,
+    "disk_free": 20531941376
+  }
+}

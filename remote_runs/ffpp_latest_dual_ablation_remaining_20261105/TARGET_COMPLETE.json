@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "full_residual_forwards": 2231360,
+  "new_optimizer_updates": 0,
+  "new_semantic_execution": false,
+  "target_masks": false,
+  "time": "2026-11-05T15:02:54.282151+00:00",
+  "registration_sha256": "1689d01872440a402a08441ff992bfe7bbba3c523dbb6eff7c8b7bbb74f04b14",
+  "seconds": 2669.1460482515395,
+  "network_frame_forwards": {
+    "source_reload_probe": 640,
+    "target_repeat_probe": 2240,
+    "full_target": 2231360
+  },
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7453315072,
+    "disk_free": 14844690432
+  }
+}

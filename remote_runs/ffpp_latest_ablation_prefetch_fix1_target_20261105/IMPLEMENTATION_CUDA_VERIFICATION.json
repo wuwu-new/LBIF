@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "process_exited": true,
+  "registration_sha256": "463954fa31eefa3b7f909a0b467254a357da3b875a579bd12788a7588356f9f3",
+  "result": {
+    "passed": true,
+    "time": "2026-11-05T02:00:16.440349+00:00",
+    "scope": "synthetic remote CUDA implementation verification, NOT experiment results",
+    "registration_sha256": "463954fa31eefa3b7f909a0b467254a357da3b875a579bd12788a7588356f9f3",
+    "checks": {
+      "mask_patch_geometry_and_strict_threshold": true,
+      "patch_BCE_has_positive_and_negative_class_gradients": true,
+      "contrast_actual_pairs_no_self_pairs_and_degenerate_skip": true,
+      "all_variants_match_legacy_shared_weights_and_nonzero_forward": true,
+      "real_patch_losses_update_encoder_not_semantic_or_boundary_head": true,
+      "missing_mask_invariance_including_invalid_NaN_bytes": true,
+      "inference_has_no_masks_or_patch_head_requirement": true,
+      "VAL_TEST_target_supervision_rejected": true,
+      "three_variants_two_disposable_optimizer_steps_each": true
+    },
+    "image_frame_forwards": 24,
+    "max_authorized_image_forwards": 64,
+    "disposable_optimizer_updates": 6,
+    "retained_optimizer_updates": 0,
+    "dataset_frames_read": 0,
+    "new_semantic_execution": false,
+    "initial_resources": {
+      "memory_cap": 26843545600,
+      "memory_used": 6509252608,
+      "disk_free": 17203154944
+    },
+    "final_resources": {
+      "memory_cap": 26843545600,
+      "memory_used": 7271346176,
+      "disk_free": 17203146752
+    }
+  },
+  "owner": {
+    "container_pid": 531543,
+    "nvml_owned_context_pid": 278084,
+    "pid_namespaces_differ": true,
+    "binding": "empty before context under project lease; exactly one after owned CUDA initialization"
+  },
+  "resources": {
+    "GPU": "",
+    "disk_free": 17203138560,
+    "memory_cap": 26843545600,
+    "memory_used": 6503280640,
+    "new_run_exists": true,
+    "old_target_process": null,
+    "old_target_complete": true
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "2027": {
+    "RGBFull": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/RGBFull/epoch_07.pt",
+      "sha256": "a44a39ae81a2cf2a99f4ba5f292022438db762e89a20c8e1d0c70675162b50e0",
+      "model_sha256": "58accf78df2b5f95425f2ba7c4a7c04337b117321efa5db805e7adef6272889f",
+      "seed": 2027,
+      "arm": "RGBFull",
+      "epoch": 7,
+      "updates": 5033,
+      "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9642055345618207,
+        "video_AUC": 0.9811620457886998,
+        "auc_fraction": [
+          74741,
+          76176
+        ],
+        "BCE": 0.22936561451969084,
+        "FP": 15,
+        "FN": 30
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/RGBFull/evaluation_07/FRAMES.csv",
+      "frames_sha256": "981d23cab76b8687d4092160404b27b6b6511de93ab0083a71e79e6df1b0e45e",
+      "videos_sha256": "1c6abbe57900c9c70e3f87e8a569b8552aafc871bf9d24eef1b7dca59bafcc7d"
+    },
+    "UniformPoolFull": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/UniformPoolFull/epoch_10.pt",
+      "sha256": "14dcd3c239f06744b3cbf4fb85da9ce88c60a227e907154c13f5505f3c3ead66",
+      "model_sha256": "ce172f519622e37ce07018ebb56770e54f122afeab4b7d2ee8da6fffccdb0be9",
+      "seed": 2027,
+      "arm": "UniformPoolFull",
+      "epoch": 10,
+      "updates": 7190,
+      "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9632214147787689,
+        "video_AUC": 0.981542743121193,
+        "auc_fraction": [
+          37385,
+          38088
+        ],
+        "BCE": 0.22550354788338012,
+        "FP": 15,
+        "FN": 29
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/UniformPoolFull/evaluation_10/FRAMES.csv",
+      "frames_sha256": "ad060ff56e36c7ed2289ef3e765fa812cd39f6ae5e22141dad8c9c53fd32db87",
+      "videos_sha256": "6085d9f218e43f0e638435f22803543f756f01b3422679cc1a345e131cdc3d2f"
+    },
+    "NoPatchClassification": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/NoPatchClassification/epoch_10.pt",
+      "sha256": "e2f334313b28599d2a0bde339ff2037d67c25eff7aa42f08054735ba738c7316",
+      "model_sha256": "2f5241b6b5f1c980c8f0b0fb53f3b3987129b0b04af0bbf13730b130ec43ad83",
+      "seed": 2027,
+      "arm": "NoPatchClassification",
+      "epoch": 10,
+      "updates": 7190,
+      "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9640139103236256,
+        "video_AUC": 0.9813589582020584,
+        "auc_fraction": [
+          18689,
+          19044
+        ],
+        "BCE": 0.22284027396777142,
+        "FP": 16,
+        "FN": 29
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/NoPatchClassification/evaluation_10/FRAMES.csv",
+      "frames_sha256": "0fdc028880876bbb2689028b9116ed6164a5b230c795707775e4682b49273147",
+      "videos_sha256": "656d23ac8f8a2f0530abe5f200017eaf39b4c47b672167af5ac09d8cf9c27829"
+    },
+    "NoRegionContrast": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/NoRegionContrast/epoch_10.pt",
+      "sha256": "fb56bbb86dbdb39483c8447c4e1e98c9ddd38e5dc87e39e224d7cb274fc2fb5e",
+      "model_sha256": "f03cb340ef54da032209594d986e3c28dd68c50f87c2e3226246f5665d8904c7",
+      "seed": 2027,
+      "arm": "NoRegionContrast",
+      "epoch": 10,
+      "updates": 7190,
+      "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9640135257290682,
+        "video_AUC": 0.9816477630749842,
+        "auc_fraction": [
+          12463,
+          12696
+        ],
+        "BCE": 0.22001697772143716,
+        "FP": 16,
+        "FN": 27
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/NoRegionContrast/evaluation_10/FRAMES.csv",
+      "frames_sha256": "5b953500feacb3105e305ece7ffa839362f1fb21d3e5b7468aa263a194c9abd4",
+      "videos_sha256": "c81a270556c3154fd1540452dce4d2e8d8832ad64d91464a1417f710f73bc9a0"
+    },
+    "NoPatchLearningMatched": {
+      "path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/NoPatchLearningMatched/epoch_10.pt",
+      "sha256": "7784b78cf5c094906d4e875565e86def83ceea0de5a993248d5d7850f4be55da",
+      "model_sha256": "5eac647c17d644d69c212b2bd6fc296b9c85bbeb9f73cb167a4ce4e2d014c551",
+      "seed": 2027,
+      "arm": "NoPatchLearningMatched",
+      "epoch": 10,
+      "updates": 7190,
+      "registration_sha256": "ca52db99805866c45ac751ce7a1e11be07326cf06b9ffabc7912e8f426388b52",
+      "metrics": {
+        "frames": 22080,
+        "videos": 690,
+        "families": 70,
+        "real_frames": 4416,
+        "fake_frames": 17664,
+        "real_videos": 138,
+        "fake_videos": 552,
+        "frame_AUC": 0.9640255571288037,
+        "video_AUC": 0.9811751732829238,
+        "auc_fraction": [
+          12457,
+          12696
+        ],
+        "BCE": 0.22340650612061436,
+        "FP": 17,
+        "FN": 30
+      },
+      "frames_path": "/root/autodl-tmp/drf_dual_transfer_20261026/ffpp_latest_dual_ablation_seed2027_20261105/source/2027/NoPatchLearningMatched/evaluation_10/FRAMES.csv",
+      "frames_sha256": "4774c30824fcdca9e45feade524bd7add3f8d30579d6be869337ff2637d7aeb3",
+      "videos_sha256": "a59e9a9d57c72793ea89a713d1ce5abb11db39c402f05fbf5b940a80abe4b553"
+    }
+  }
+}

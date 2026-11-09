@@ -1,0 +1,41 @@
+{
+  "time": "2026-11-03T16:08:11.061655+00:00",
+  "human_authorization": "用户明确先完整结束三臂七域，从SemanticHalf及三个固定残差融合按七域等权视频AUC四选一；再固定2027/3407/4099、历史10epoch及原TRAIN11492帧、完整源VAL及七域；严格同配置已有权重复用。旧十轮五seed及automation仍暂停。",
+  "document": "docs/107_四选一后三种子全量确认授权_20261104.md",
+  "document_sha256": "1e43dd9247253bb4f3ce6d4cce05ef40d0ee2c2862709671b3b877bdd3cd85be",
+  "current_target_run": "ffpp_boundary_readout_crossdomain_20261103",
+  "current_target_registration": "9a7c136e882299edd6ffa19ef2fe87123b80ef89d1b1b79e16af4d2ceb0875cf",
+  "current_run_changes": false,
+  "selection_candidates": [
+    "SemanticHalf",
+    "Semantic_UniformNoAux",
+    "Semantic_UniformAux",
+    "Semantic_BoundaryAux"
+  ],
+  "selection_metric": "equal_weight_seven_domain_macro_video_AUC",
+  "tie_break": "candidate order, exact equality only",
+  "require_current_complete_archived_independently_verified": true,
+  "selected_candidate": null,
+  "seeds": [
+    2027,
+    3407,
+    4099
+  ],
+  "epochs": 10,
+  "updates_per_epoch": 719,
+  "updates_per_new_component": 7190,
+  "source_TRAIN_frames": 11492,
+  "source_TRAIN_videos": 2873,
+  "source_VAL_frames": 22080,
+  "target_frames": 223136,
+  "source_TEST": false,
+  "target_labels_for_training": false,
+  "target_masks": false,
+  "old_tasks_paused": true,
+  "existing_2027_reuse_only_if_exact_configuration": true,
+  "full_three_seed_independent_selection_claim": false,
+  "report_new_two_seeds_separately": true,
+  "new_stage_registered": false,
+  "new_stage_started": false,
+  "ledger_sha256": "30a2ffefe4acc4adf79a445c2da268a653f01f8812869c057a3b187f7bb2d8fd"
+}

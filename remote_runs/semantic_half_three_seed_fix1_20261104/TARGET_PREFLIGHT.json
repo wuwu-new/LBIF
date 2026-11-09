@@ -1,0 +1,88 @@
+{
+  "time": "2026-11-03T17:35:45.115951+00:00",
+  "passed": true,
+  "registration_sha256": "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98",
+  "models_cuda_only": true,
+  "owned_nvml_pid": 136267,
+  "checkpoint_identities": {
+    "2027": [
+      "CrossLayerNoImage",
+      10,
+      2027,
+      "fd3b984647210e456cb0000291cd76d592a7e04e7c7c84421f91e5c862571b5f"
+    ],
+    "3407": [
+      "CrossLayerNoImage",
+      10,
+      3407,
+      "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98"
+    ],
+    "4099": [
+      "CrossLayerNoImage",
+      10,
+      4099,
+      "ea31d50d0cee0868aa8e2d5e194651ae4472d7a4d78410636aca458b08d1ba98"
+    ]
+  },
+  "model_tensor_sha256": {
+    "2027": "7ee1e653cc4e2d8c6d9ceecb0edf93e80745de0e2fb918d4e1c8b41a5fd12085",
+    "3407": "a4f623c4dedd4303cfd20a1f9de57196f500a90fc76f63d11ec7fe766d2b00e4",
+    "4099": "03d6488823ae9521e92d72413e4e2d7a45b48e626b668b158ebcd9787b24be38"
+  },
+  "old2027_target_probability_errors": {
+    "cdf1": 0.0,
+    "cdf2": 0.0,
+    "dfd": 0.0,
+    "dfdc": 0.0,
+    "dfdcp": 0.0,
+    "wild": 0.0,
+    "uadfv": 0.0
+  },
+  "finite_and_RGB_independent": {
+    "cdf1": {
+      "2027": true,
+      "3407": true,
+      "4099": true
+    },
+    "cdf2": {
+      "2027": true,
+      "3407": true,
+      "4099": true
+    },
+    "dfd": {
+      "2027": true,
+      "3407": true,
+      "4099": true
+    },
+    "dfdc": {
+      "2027": true,
+      "3407": true,
+      "4099": true
+    },
+    "dfdcp": {
+      "2027": true,
+      "3407": true,
+      "4099": true
+    },
+    "wild": {
+      "2027": true,
+      "3407": true,
+      "4099": true
+    },
+    "uadfv": {
+      "2027": true,
+      "3407": true,
+      "4099": true
+    }
+  },
+  "model_frame_forwards": 336,
+  "target_encoding_probe_frames": 112,
+  "optimizer_updates": 0,
+  "source_TEST": false,
+  "target_masks": false,
+  "resources": {
+    "memory_cap": 26843545600,
+    "memory_used": 7475122176,
+    "disk_free": 20542046208
+  }
+}
